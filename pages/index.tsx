@@ -5,6 +5,8 @@ import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { ProductGrid } from './components/ProductGrid'
 import { Footer } from './components/Footer'
+import { WishlistProvider } from "./context/WishlistContext";
+import { items } from './data/items'
 
 // Sample product data (replace with real data later)
 const trendingProducts = [
@@ -43,16 +45,18 @@ export default function Home() {
   }
 
   return (
+    <WishlistProvider>
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <main>
         <Hero />
-        <ProductGrid title="Trending Products" products={trendingProducts} onProductClick={handleProductClick} />
-        <ProductGrid title="Health Supplements" products={healthSupplements} onProductClick={handleProductClick} />
-        <ProductGrid title="Herbal Remedies" products={herbs} onProductClick={handleProductClick} />
-        <ProductGrid title="Organic Superfoods" products={organicFoods} onProductClick={handleProductClick} />
+        <ProductGrid title="Trending Products" products={items.filter((item) => item.trending === true)} onProductClick={handleProductClick} />
+        <ProductGrid title="Health Supplements" products={items.filter((item) => item.category == 'supplement')} onProductClick={handleProductClick} />
+        <ProductGrid title="Herbal Remedies" products={items.filter((item) => item.category == 'herb')} onProductClick={handleProductClick} />
+        <ProductGrid title="Organic Superfoods" products={items.filter((item) => item.category == 'organic-food')} onProductClick={handleProductClick} />
       </main>
       <Footer />
     </div>
+    </WishlistProvider>
   )
 }
