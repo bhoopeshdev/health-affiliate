@@ -19,13 +19,13 @@ export function Footer() {
           </div>
           <div>
             <h4 className="text-md font-semibold mb-4">Contact Us</h4>
-            <p className="text-sm text-gray-600 mb-2">1234 Health Street, Wellness City, HC 12345</p>
-            <p className="text-sm text-gray-600 mb-2">Phone: (123) 456-7890</p>
-            <p className="text-sm text-gray-600">Email: info@healthychoices.com</p>
+            <p className="text-sm text-gray-600 mb-2">Bangalore, Karnataka</p>
+            <p className="text-sm text-gray-600 mb-2">Phone: +91-9039709738</p>
+            <p className="text-sm text-gray-600">Email: customer@bdhealthclub.com</p>
           </div>
         </div>
         
       </div>
     </footer>
-  )
+  ) 
 }

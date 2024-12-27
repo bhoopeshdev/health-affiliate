@@ -1,64 +1,59 @@
-import { useRouter } from 'next/router'
-import { Navbar } from '../../components/Navbar'
-import { Footer } from '../../components/Footer'
-import { ImageSlider } from '../../components/ImageSlider'
-import { ProductDetails } from '../../components/ProductDetails'
-import { UserReviews } from '../../components/UserReviews'
-import { ProductGrid } from '../../components/ProductGrid'
-import { WishlistProvider } from "../../context/WishlistContext";
-import { items } from '../../data/items'
+    import { useRouter } from 'next/router'
+    import { Navbar } from '../../../components/Navbar'
+    import { Footer } from '../../../components/Footer'
+    import { ImageSlider } from '../../../components/ImageSlider'
+    import { ProductDetails } from '../../../components/ProductDetails'
+    import { UserReviews } from '../../../components/UserReviews'
+    import { ProductGrid } from '../../../components/ProductGrid'
+    import { items } from '../../../data/items'
 
-export default function ProductPage() {
+    export default function ProductPage() {
 
-  // get the product ID from the URL path, it is in format /product/{id} read from pathname
-  const router = useRouter();
-  const { id } = router.query;
+      // get the product ID from the URL path, it is in format /product/{id} read from pathname
+      const router = useRouter();
+      const { id } = router.query;
 
-  // find the product with the matching ID
-  const product = items.find((item) => item.id === id);
+      // find the product with the matching ID
+      const product = items.find((item) => item.id === id);
 
-  if(!product) {
-    return (
-      <div className="min-h-screen flex flex-col">
-        <Navbar />
-        <main className="flex-grow container mx-auto px-4 py-8">
-          <p>Product not found</p>
-        </main>
-        <Footer />
-      </div>
-    )
-  }
+      if(!product) {
+        return (
+          <div className="min-h-screen flex flex-col">
+            <Navbar />
+            <main className="flex-grow container mx-auto px-4 py-8">
+              <p>Product not found</p>
+            </main>
+            <Footer />
+          </div>
+        )
+      }
 
-  // prepare the related products array from product related_product array
-  const relatedProducts = items.filter((item) => product.related_products.includes(item.id));
+      // prepare the related products array from product related_product array
+      const relatedProducts = items.filter((item) => product.related_products.includes(item.id));
 
-  return (
-    <WishlistProvider>
-    <div className="min-h-screen flex flex-col">
-      <Navbar />
-      <main className="flex-grow container mx-auto px-4 py-8">
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <ImageSlider images={product.images} />
-          <ProductDetails
-            product={product}
-          />
+      return (
+        <div className="min-h-screen flex flex-col">
+          <main className="flex-grow container mx-auto px-4 py-8">
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <ImageSlider images={product.images} />
+              <ProductDetails
+                product={product}
+              />
+            </div>
+            <div className="mb-12">
+              <h2 className="text-2xl font-bold mb-4">Product Description</h2>
+              <h3 className="text-md mb-4">
+                {product.full_description}
+              </h3>
+            </div>
+            <div className="mb-12">
+              <UserReviews reviews={product.reviews} />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold mb-4">Related Products</h2>
+              <ProductGrid title="Related Products" products={relatedProducts} />
+            </div>
+          </main>
         </div>
-        <div className="mb-12">
-          <h2 className="text-2xl font-bold mb-4">Product Description</h2>
-          <h3 className="text-md mb-4">
-            {product.full_description}
-          </h3>
-        </div>
-        <div className="mb-12">
-          <UserReviews reviews={product.reviews} />
-        </div>
-        <div>
-          <h2 className="text-2xl font-bold mb-4">Related Products</h2>
-          <ProductGrid products={relatedProducts} />
-        </div>
-      </main>
-      <Footer />
-    </div>
-    </WishlistProvider>
-  )
-}
+      )
+    }

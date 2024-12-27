@@ -1,12 +1,11 @@
 'use client'
 
 import { useRouter } from 'next/navigation'
-import { Navbar } from './components/Navbar'
-import { Hero } from './components/Hero'
-import { ProductGrid } from './components/ProductGrid'
-import { Footer } from './components/Footer'
-import { WishlistProvider } from "./context/WishlistContext";
-import { items } from './data/items'
+import { Navbar } from '../components/Navbar'
+import { Hero } from '../components/Hero'
+import { ProductGrid } from '../components/ProductGrid'
+import { Footer } from '../components/Footer'
+import { items } from '../data/items'
 
 // Sample product data (replace with real data later)
 const trendingProducts = [
@@ -40,14 +39,12 @@ const organicFoods = [
 export default function Home() {
   const router = useRouter()
 
-  const handleProductClick = (productId: number) => {
+  const handleProductClick = (productId: string) => {
     router.push(`/product/${productId}`)
   }
 
   return (
-    <WishlistProvider>
     <div className="min-h-screen flex flex-col">
-      <Navbar />
       <main>
         <Hero />
         <ProductGrid title="Trending Products" products={items.filter((item) => item.trending === true)} onProductClick={handleProductClick} />
@@ -55,8 +52,6 @@ export default function Home() {
         <ProductGrid title="Herbal Remedies" products={items.filter((item) => item.category == 'herb')} onProductClick={handleProductClick} />
         <ProductGrid title="Organic Superfoods" products={items.filter((item) => item.category == 'organic-food')} onProductClick={handleProductClick} />
       </main>
-      <Footer />
     </div>
-    </WishlistProvider>
   )
 }

@@ -24,5 +24,7 @@ export interface Review {
   export interface ProductGridProps {
     title: string;
     products: Product[];
+    onProductClick?: (productId: string) => void; // Marking it optional with `?`
   }
+  
   
