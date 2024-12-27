@@ -45,7 +45,7 @@ export function Navbar() {
     <nav className="relative bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link href="/" className="text-2xl font-bold text-orange-600">
-          HealthyChoices
+          BDHealthClub
         </Link>
         <div className="flex-1 max-w-md mx-auto flex items-center justify-center">
           <div className="relative w-full">
@@ -78,10 +78,12 @@ export function Navbar() {
           </div>
         </div>
         <div className="flex items-center space-x-8">
+          
           <button
             onClick={() => setIsWishlistOpen(true)}
-            className="relative p-2 text-gray-700 hover:text-indigo-600"
+            className="relative p-2 text-gray-700 hover:text-indigo-600 flex flex-row gap-2"
           >
+            <p className='cursor-pointer hover:text-indigo-600 font-bold'>WishList</p>
             <Heart className="h-6 w-6" />
             {wishlist.length > 0 && (
               <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white transform translate-x-1/2 -translate-y-1/2 bg-indigo-600 rounded-full">
