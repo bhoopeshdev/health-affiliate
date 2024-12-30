@@ -50,7 +50,7 @@ export default function Home() {
         <ProductGrid title="Trending Products" products={items.filter((item) => item.trending === true)} onProductClick={handleProductClick} />
         <ProductGrid title="Health Supplements" products={items.filter((item) => item.category == 'supplement')} onProductClick={handleProductClick} />
         <ProductGrid title="Herbal Remedies" products={items.filter((item) => item.category == 'herb')} onProductClick={handleProductClick} />
-        <ProductGrid title="Organic Superfoods" products={items.filter((item) => item.category == 'organic-food')} onProductClick={handleProductClick} />
+        <ProductGrid title="Superfoods" products={items.filter((item) => item.category == 'super-food')} onProductClick={handleProductClick} />
       </main>
     </div>
   )

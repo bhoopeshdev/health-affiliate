@@ -43,14 +43,17 @@
             <div className="mb-12">
               <h2 className="text-2xl font-bold mb-4">Product Description</h2>
               <h3 className="text-md mb-4">
-                {product.full_description}
+                {product.full_description.map((desc, index) => (
+                    <p key={index} className="mb-2">
+                      {desc}
+                    </p>
+                  ))}
               </h3>
             </div>
             <div className="mb-12">
               <UserReviews reviews={product.reviews} />
             </div>
             <div>
-              <h2 className="text-2xl font-bold mb-4">Related Products</h2>
               <ProductGrid title="Related Products" products={relatedProducts} />
             </div>
           </main>

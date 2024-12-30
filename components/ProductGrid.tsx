@@ -21,10 +21,10 @@ export function ProductGrid({ title, products }: ProductGridProps) {
   };
 
   return (
-    <section id="product-grid" className="py-12">
+    <section id="product-grid" className="py-4">
       <div className="container mx-auto px-4">
         <div className="flex flex-row justify-flex-start items-center gap-8">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6 text-center">{title}</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-6">{title}</h2>
 
           {/* Centered Scroll Buttons */}
           <div className="flex justify-center items-center mb-4 gap-4">
@@ -55,14 +55,14 @@ export function ProductGrid({ title, products }: ProductGridProps) {
             <Card key={product.id} className="flex-none w-64 hover:shadow-2xl transition duration-300">
               <CardContent className="p-4">
                 <Image
-                  src="/placeholder.svg"
+                  src={product.images[0]}
                   alt={product.name}
                   width={300}
                   height={200}
                   className="w-full h-48 object-cover rounded-md"
                 />
                 <h3 className="mt-2 text-lg font-semibold">{product.name}</h3>
-                <p className="text-orange-600 font-bold">${product.price.toFixed(2)}</p>
+                <p className="text-orange-600 font-bold">₹{product.price.toFixed(2)}</p>
               </CardContent>
               <CardFooter>
                 <Button className="w-full">

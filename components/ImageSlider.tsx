@@ -30,7 +30,7 @@ export function ImageSlider({ images }: ImageSliderProps) {
         src={images[currentIndex]}
         alt={`Product image ${currentIndex + 1}`}
         fill
-        className="object-cover rounded-lg"
+        className="object-contain rounded-lg"
       />
       <Button
         variant="outline"

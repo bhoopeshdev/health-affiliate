@@ -13,7 +13,7 @@ export interface Review {
     category: string;
     subcategory: string;
     short_description: string;
-    full_description: string;
+    full_description: string[];
     affiliate_link: string;
     rating: number;
     reviews: Review[];
