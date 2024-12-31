@@ -3,8 +3,8 @@ export const items = [
     "id": "1",
     "name": "Max Protein Peanut Butter Classic Crunchy",
     "price": 169,
-    "category": "super-food",
-    "subcategory": "super-food",
+    "category": "food",
+    "subcategory": "healthy-snacks",
     "images": [
       "https://cdn.shopify.com/s/files/1/0512/8827/7146/products/MoodShot_1ce96d54-8c05-4a2f-ba7c-d6ffe3579d33.png?v=1680504819"
     ],
@@ -46,8 +46,8 @@ export const items = [
     "id": "2",
     "name": "Max Protein Peanut Butter Choco Creamy",
     "price": 175,
-    "category": "super-food",
-    "subcategory": "super-food",
+    "category": "food",
+    "subcategory": "healthy-snacks",
     "images": [
       "https://cdn.shopify.com/s/files/1/0512/8827/7146/products/moodshot_380863cd-76f1-4c4b-ac27-d1f03a8bbb2f.png?v=1680504683",
     ],
@@ -157,8 +157,8 @@ export const items = [
     "id": "4",
     "name": "Max Protein Choco Chips Cookie",
     "price": 300,
-    "category": "super-food",
-    "subcategory": "fitness",
+    "category": "food",
+    "subcategory": "healthy-snacks",
     "images": [
       "https://cdn.shopify.com/s/files/1/0512/8827/7146/products/1_ddbfc195-d4a2-48ab-ae4a-ec8952b8dbcc.jpg?v=1657296747",
       "https://cdn.shopify.com/s/files/1/0512/8827/7146/files/Ingredients_cookies_-min_c2b8ef7f-abe7-4513-a686-b6657972a9a7.png?v=1638817959",
@@ -340,7 +340,7 @@ export const items = [
     "id": "7",
     "name": "Organic Matcha Green Tea",
     "price": 16.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Beverages",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -596,7 +596,7 @@ export const items = [
     "id": "11",
     "name": "Organic Goji Berries",
     "price": 18.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Superfoods",
     "images": [
       "/placeholder.svg"
@@ -702,7 +702,7 @@ export const items = [
     "id": "13",
     "name": "Organic Almond Butter",
     "price": 15.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Nut Butters",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -927,7 +927,7 @@ export const items = [
     "id": "17",
     "name": "Wheatgrass Powder",
     "price": 15.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Superfoods",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -1050,7 +1050,7 @@ export const items = [
     "id": "19",
     "name": "Organic Coconut Oil",
     "price": 12.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Oils",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -1101,7 +1101,7 @@ export const items = [
     "id": "20",
     "name": "Beetroot Powder",
     "price": 14.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Superfoods",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -1223,7 +1223,7 @@ export const items = [
     "id": "22",
     "name": "Organic Flaxseed Meal",
     "price": 10.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Seeds",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -1332,7 +1332,7 @@ export const items = [
     "id": "24",
     "name": "Organic Quinoa",
     "price": 13.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Grains",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -1454,7 +1454,7 @@ export const items = [
     "id": "26",
     "name": "Organic Cacao Powder",
     "price": 14.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Superfoods",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -1500,7 +1500,7 @@ export const items = [
     "id": "27",
     "name": "Organic Honey",
     "price": 16.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Sweeteners",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -1620,7 +1620,7 @@ export const items = [
     "id": "29",
     "name": "Organic Hemp Hearts",
     "price": 17.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Seeds",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
@@ -1680,7 +1680,7 @@ export const items = [
     "id": "30",
     "name": "Organic Bone Broth Powder",
     "price": 24.99,
-    "category": "super-food",
+    "category": "food",
     "subcategory": "Broths",
     "images": [
       "/placeholder.svg","/placeholder.svg","/placeholder.svg"
