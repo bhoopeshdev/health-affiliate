@@ -46,18 +46,25 @@ export function ProductDetails({ product }: { product: Product }) {
           </p>
           <Select
             onValueChange={(selectedVariant) => {
-              const variantLink = product.variants[selectedVariant]?.link;
+              // Ensure product.variants is defined before accessing
+              const variantLink = product.variants?.[selectedVariant]?.link;
               if (variantLink) {
                 window.location.href = variantLink; // Redirect to the selected variant's link
               }
             }}
           >
             <SelectTrigger className="w-[180px]">
-              <SelectValue placeholder={Object.keys(product.variants).find(variant => product.variants[variant].current) || "Choose a variant"} />
+              <SelectValue
+                placeholder={
+                  Object.keys(product.variants || {}).find(
+                    (variant) => product.variants?.[variant]?.current
+                  ) || "Choose a variant"
+                }
+              />
             </SelectTrigger>
             <SelectContent>
-              {Object.keys(product.variants)
-                .filter(variant => !product.variants[variant].current) // Exclude the current variant
+              {Object.keys(product.variants || {})
+                .filter((variant) => !product.variants?.[variant]?.current) // Exclude the current variant
                 .map((variant) => (
                   <SelectItem key={variant} value={variant}>
                     {variant}
@@ -67,6 +74,8 @@ export function ProductDetails({ product }: { product: Product }) {
           </Select>
         </div>
       )}
+
+
       <div className="flex space-x-4">
         <Button onClick={() => window.open(product.affiliate_link, '_blank')}>
           Buy Now 

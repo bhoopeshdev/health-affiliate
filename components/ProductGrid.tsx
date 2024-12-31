@@ -21,9 +21,18 @@ export function ProductGrid({ title, products }: ProductGridProps) {
   };
 
   // Define your custom loader function
-  const customLoader = ({ src, width, quality }) => {
+  const customLoader = ({
+    src,
+    width,
+    quality,
+  }: {
+    src: string;
+    width: number;
+    quality?: number;
+  }): string => {
     return `${src}?w=${width}&q=${quality || 75}`;
   };
+  
 
   return (
     <section id="product-grid" className="py-4">

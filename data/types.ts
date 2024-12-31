@@ -10,7 +10,7 @@ export interface Review {
     name: string;
     images: string[];
     price: number;
-    striked_price: number;
+    striked_price?: number;
     category: string;
     subcategory: string;
     short_description: string;
@@ -21,7 +21,11 @@ export interface Review {
     trending: boolean;
     tags: string[];
     // variants having key as atring and values as json object
-    variants: { [key: string]: any };
+    variants?: { [key: string]: {
+        link?: string;
+        current?: boolean;
+      }; 
+    };
   }
   
   export interface ProductGridProps {
