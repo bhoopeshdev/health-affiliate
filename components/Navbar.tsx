@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { Input } from "@/components/ui/input"
 import { Heart } from 'lucide-react'
 import WishlistPopup from './WishListPopup'
@@ -9,23 +9,24 @@ import { items } from '../data/items'
 import { Product } from '../data/types'
 
 export function Navbar() {
-  const [isWishlistOpen, setIsWishlistOpen] = useState(false)
-  const { wishlist } = useWishlist()
-  const [searchText, setSearchText] = useState("")
-  const [suggestions, setSuggestions] = useState<Product[]>([])
-  const router = useRouter()
+  const [isWishlistOpen, setIsWishlistOpen] = useState(false);
+  const { wishlist } = useWishlist();
+  const [searchText, setSearchText] = useState("");
+  const [suggestions, setSuggestions] = useState<Product[]>([]);
+  const router = useRouter();
+  const suggestionsRef = useRef<HTMLDivElement>(null); // Create a ref for the dropdown
 
   const handleSearch = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter") {
-      router.push(`/list?search=${searchText}`)
-      setSearchText("") // Clear the input
-      setSuggestions([]) // Clear suggestions
+      router.push(`/list?search=${searchText}`);
+      setSearchText(""); // Clear the input
+      setSuggestions([]); // Clear suggestions
     }
-  }
+  };
 
   const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value
-    setSearchText(value)
+    const value = event.target.value;
+    setSearchText(value);
 
     if (value && value.length > 2) {
       // Filter suggestions based on input
@@ -33,11 +34,27 @@ export function Navbar() {
         items.filter((item) =>
           item.tags.some((tag) => tag.toLowerCase().includes(value.toLowerCase()))
         )
-      )
+      );
     } else {
-      setSuggestions([])
+      setSuggestions([]);
     }
-  }
+  };
+
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      suggestionsRef.current &&
+      !suggestionsRef.current.contains(event.target as Node)
+    ) {
+      setSuggestions([]); // Clear suggestions if clicked outside
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="relative bg-white shadow-md">
@@ -53,7 +70,6 @@ export function Navbar() {
             {/* Input with Search Icon */}
             <div className="relative w-full max-w-[600px]">
               <span className="absolute inset-y-0 left-3 flex items-center text-gray-500">
-                {/* Search Icon (SVG or use your preferred icon library) */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -72,7 +88,7 @@ export function Navbar() {
               <Input
                 type="text"
                 placeholder="Search products..."
-                className="w-full pl-10" // Add padding to account for the icon
+                className="w-full pl-10"
                 value={searchText}
                 onChange={handleInputChange}
                 onKeyDown={handleSearch}
@@ -80,32 +96,38 @@ export function Navbar() {
             </div>
 
             {suggestions.length > 0 && (
-              <ul className="absolute top-full mt-2 w-full z-10 bg-white border border-gray-300 shadow-lg rounded-md">
-                {suggestions.map((suggestion, index) => (
-                  <li
-                    key={index}
-                    className="px-4 py-2 cursor-pointer hover:bg-gray-100"
-                    onClick={() => {
-                      setSearchText(suggestion.name);
-                      setSuggestions([]);
-                      router.push(`/product/${suggestion.id}`);
-                    }}
-                  >
-                    {suggestion.name}
-                  </li>
-                ))}
-              </ul>
+              <div
+                ref={suggestionsRef} // Attach the ref to the suggestions container
+                className="absolute top-full mt-2 w-full z-10 bg-white border border-gray-300 shadow-lg rounded-md"
+              >
+                <ul>
+                  {suggestions.map((suggestion, index) => (
+                    <li
+                      key={index}
+                      className="px-4 py-2 cursor-pointer hover:bg-gray-100"
+                      onClick={() => {
+                        setSearchText(suggestion.name);
+                        setSuggestions([]);
+                        router.push(`/product/${suggestion.id}`);
+                      }}
+                    >
+                      {suggestion.name}
+                    </li>
+                  ))}
+                </ul>
+              </div>
             )}
           </div>
         </div>
-
 
         {/* Wishlist Button */}
         <button
           onClick={() => setIsWishlistOpen(true)}
           className="relative p-2 text-gray-700 hover:text-indigo-600 flex flex-row gap-2"
         >
-          <span className="hidden lg:inline cursor-pointer hover:text-indigo-600 font-bold">WishList</span>
+          <span className="hidden lg:inline cursor-pointer hover:text-indigo-600 font-bold">
+            WishList
+          </span>
           <Heart className="h-6 w-6" />
           {wishlist.length > 0 && (
             <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white transform translate-x-1/2 -translate-y-1/2 bg-indigo-600 rounded-full">
@@ -116,5 +138,5 @@ export function Navbar() {
       </div>
       <WishlistPopup isOpen={isWishlistOpen} onClose={() => setIsWishlistOpen(false)} />
     </nav>
-  )
+  );
 }

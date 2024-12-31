@@ -28,15 +28,17 @@ const WishlistPopup: React.FC<WishlistPopupProps> = ({ isOpen, onClose }) => {
           <ul className="space-y-4">
             {wishlist.map((item) => (
               <li key={item.id} className="flex items-center space-x-4">
-                <img
-                  src={item.images?.[0] || '/default-placeholder.png'} // Replace with a valid placeholder URL
-                  alt={item.name || 'Wishlist Item'}
-                  className="w-16 h-16 object-cover rounded"
-                />
-                <div className="flex-1">
-                  <h3 className="font-semibold">{item.name}</h3>
-                  <p className="text-sm text-gray-500">${item.price}</p>
-                </div>
+                  <img
+                    src={item.images?.[0] || '/default-placeholder.png'} // Replace with a valid placeholder URL
+                    alt={item.name || 'Wishlist Item'}
+                    className="w-16 h-16 object-cover rounded cursor-pointer"
+                    onClick={() => window.location.href = `/product/${item.id}`}
+                  />
+                  <div className="flex-1 cursor-pointer" onClick={() => window.location.href = `/product/${item.id}`}>
+                    <h3 className="font-semibold">{item.name}</h3>
+                    <p className="text-sm text-gray-500">₹{item.price}</p>
+                  </div>
+                
                 <button
                   onClick={() => removeFromWishlist(item.id)}
                   className="text-red-500 hover:text-red-700"

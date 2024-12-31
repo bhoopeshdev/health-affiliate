@@ -28,6 +28,15 @@ export const items = [
       "snack",
       "spread"
     ],
+    "variants" : {
+      "classic crunchy" : {
+        "link" : "/product/1",
+        "current" : true
+      },
+      "choco creamy" : {
+        "link" : "/product/2"
+      }
+    },
     "related_products": [
       "2",
       "3"
@@ -42,7 +51,7 @@ export const items = [
     "images": [
       "https://cdn.shopify.com/s/files/1/0512/8827/7146/products/moodshot_380863cd-76f1-4c4b-ac27-d1f03a8bbb2f.png?v=1680504683",
     ],
-    "short_description": "Max Protein Choco Creamy Peanut Butter: Made with real roasted peanuts and rich chocolate, this all-natural, gluten-free spread is a deliciously wholesome treat. Free from preservatives and artificial flavors, it’s perfect for blending, baking, or enjoying as a snack anytime!",
+    "short_description": "<p>After researching various alternatives, I found Max Protein Choco Creamy Peanut Butter to be one of the best in terms of quality and affordability</p><p>Crafted from real roasted peanuts and rich chocolate, this all-natural, gluten-free spread offers a guilt-free treat without preservatives or artificial flavors.</p>",
     "full_description": [
       "Max Protein Choco Creamy Peanut Butter is a delightful blend of real roasted peanuts and rich chocolate, crafted to bring you a smooth and indulgent snacking experience. This all-natural spread is gluten-free and contains no preservatives, artificial flavors, or colors, ensuring a wholesome and guilt-free treat.",
       "Perfect for blending into smoothies, baking your favorite desserts, or enjoying straight from the jar, Choco Creamy Peanut Butter combines irresistible taste with high-quality ingredients. Whether you're fueling up for a busy day or treating yourself to a moment of indulgence, it’s the ideal on-the-go snack for anyone who values flavor and nutrition."
@@ -62,6 +71,15 @@ export const items = [
       "snack",
       "spread"
     ],
+    "variants" : {
+      "classic crunchy" : {
+        "link" : "/product/1"
+      },
+      "choco creamy" : {
+        "link" : "/product/2",
+        "current" : true
+      }
+    },
     "related_products": [
       "1",
       "3"
@@ -70,19 +88,21 @@ export const items = [
   {
     "id": "3",
     "name": "Max Protein Whey Protein - Irish Chocolate",
-    "price": 3999,
+    "striked_price": 3999,
+    "price": 1599,
     "category": "supplement",
     "subcategory": "fitness",
     "images": [
       "https://cdn.shopify.com/s/files/1/0512/8827/7146/files/WheyProtein_IrishChocolate_Front_1KG.jpg?v=1693480285"
     ],
-    "short_description": "Indulge in Max Protein's premium Whey Protein Powder in the irresistible Irish Chocolate flavor. Packed with 24g of high-quality whey protein and 5.2g BCAAs per serving, it fuels muscle recovery and growth. Enjoy a rich chocolate experience with zero added sugar, enhanced by Digezyme for smooth digestion. Proudly made in India, this delicious blend elevates your fitness journey with international quality and local craftsmanship.",
-    "full_description": ["Delight Your Taste Buds with Irresistible Irish Chocolate, Max Protein's premium Whey Protein Powder in the Irish Chocolate flavor is a game-changer for fitness enthusiasts and chocolate lovers alike. Combining the indulgent taste of rich, creamy chocolate with the power of high-quality whey protein, this blend offers a delicious way to support your fitness journey. Whether you're recovering post-workout or looking for a nutritious snack, the Irish Chocolate flavor makes every serving a treat to savor.",
-      "Packed with Premium Nutrition, Each serving delivers 24 grams of premium whey protein, providing the essential building blocks your body needs to repair and grow muscles effectively. Designed to fuel your fitness goals, this protein is perfect for athletes, gym-goers, and anyone looking to enhance their daily protein intake. The addition of 5.2 grams of Branched-Chain Amino Acids (BCAAs) further elevates your performance, promoting faster muscle recovery and reducing fatigue after intense workouts.",
-      "Guilt-Free Indulgence, Enjoy the luxurious taste of Irish chocolate without compromising your health. With zero added sugar, this whey protein powder is crafted to deliver a delightful chocolate experience while keeping your nutritional goals intact. The carefully balanced formula ensures you can indulge in your favorite flavor without the worry of unnecessary calories or sugar content.",
-      "Enhanced Digestive Comfort, Max Protein Irish Chocolate Whey Protein Powder is fortified with Digezyme, a proprietary blend of digestive enzymes that ensures optimal absorption and digestion. Say goodbye to post-protein discomfort and hello to smooth digestion, allowing your body to fully utilize the nutrients in every scoop.",
-      "Proudly Made in India, Crafted with precision and care in India, Max Protein takes pride in delivering international-quality products with a touch of local excellence. The Irish Chocolate flavor embodies this commitment, offering you a premium product that blends rich taste, superior nutrition, and unmatched quality.",
-      "Transform your fitness routine with Max Protein Irish Chocolate Whey Protein Powder. Elevate your workouts, recover faster, and indulge in the goodness of chocolate like never before."
+    "short_description": "<p>After extensively comparing multiple whey protein powders on the market, I found that Max Protein Whey in Irish Chocolate offers an unbeatable combination of taste, nutrition, and affordability.</p><p>Currently available at a special price, please use Coupon code WHEY60 and get 60% off.</p>",
+    "full_description": [
+      "<p><strong>Delight Your Taste Buds with Irresistible Irish Chocolate </strong></p> <p>Max Protein's premium Whey Protein Powder in the Irish Chocolate flavor is a game-changer for fitness enthusiasts and chocolate lovers alike. Combining the indulgent taste of rich, creamy chocolate with the power of high-quality whey protein, this blend offers a delicious way to support your fitness journey. Whether you're recovering post-workout or looking for a nutritious snack, the Irish Chocolate flavor makes every serving a treat to savor.</p>",
+      "<p><strong>Packed with Premium Nutrition </strong></p> <p>Each serving delivers 24 grams of premium whey protein, providing the essential building blocks your body needs to repair and grow muscles effectively. Designed to fuel your fitness goals, this protein is perfect for athletes, gym-goers, and anyone looking to enhance their daily protein intake. The addition of 5.2 grams of Branched-Chain Amino Acids (BCAAs) further elevates your performance, promoting faster muscle recovery and reducing fatigue after intense workouts.</p>",
+      "<p><strong>Guilt-Free Indulgence</strong></p><p> Enjoy the luxurious taste of Irish chocolate without compromising your health. With zero added sugar, this whey protein powder is crafted to deliver a delightful chocolate experience while keeping your nutritional goals intact. The carefully balanced formula ensures you can indulge in your favorite flavor without the worry of unnecessary calories or sugar content.</p>",
+      "<p><strong>Enhanced Digestive Comfort</strong></p><p> Max Protein Irish Chocolate Whey Protein Powder is fortified with Digezyme, a proprietary blend of digestive enzymes that ensures optimal absorption and digestion. Say goodbye to post-protein discomfort and hello to smooth digestion, allowing your body to fully utilize the nutrients in every scoop.</p>",
+      "<p><strong>Proudly Made in India</strong></p><p> Crafted with precision and care in India, Max Protein takes pride in delivering international-quality products with a touch of local excellence. The Irish Chocolate flavor embodies this commitment, offering you a premium product that blends rich taste, superior nutrition, and unmatched quality.</p>",
+      "<p>Transform your fitness routine with Max Protein Irish Chocolate Whey Protein Powder. Elevate your workouts, recover faster, and indulge in the goodness of chocolate like never before.</p>"
     ],
     "affiliate_link": "https://maxprotein.in/products/max-protein-whey-protein-irish-chocolate?sca_ref=7723757.V6DwwM7vHI&utm_source=affiliate&utm_medium=uppromote&utm_campaign=standardaffiliateprogram",
     "rating": 4.3,

@@ -2,6 +2,7 @@ import { Star, Share2 } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { useWishlist } from '../context/WishlistContext'
 import { Product } from '../data/types'
+import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
 
 export function ProductDetails({ product }: { product: Product }) {
 
@@ -20,13 +21,52 @@ export function ProductDetails({ product }: { product: Product }) {
   return (
     <div className="space-y-4">
       <h1 className="text-3xl font-bold">{product.name}</h1>
-      <p className="text-gray-600">{product.short_description}</p>
       <div className="flex items-center space-x-2">
         {[...Array(5)].map((_, i) => (
           <Star key={i} className={`h-5 w-5 ${i < product.rating ? 'text-yellow-400' : 'text-gray-300'}`} />
         ))}
         <span className="text-gray-600">({product.rating}/5)</span>
       </div>
+      <div
+        className="text-gray-800 text-md" 
+        dangerouslySetInnerHTML={{ __html: product.short_description }}
+      ></div>
+      <div>
+        <p>
+          <span className='font-semibold'>Price: </span> 
+          {product.striked_price && <span className='line-through'>₹{product.striked_price}</span>}
+          <span> ₹{product.price}</span></p>
+      </div>
+      
+      {/* product variants is key value pair */}
+      {product.variants && Object.keys(product.variants).length > 0 && (
+        <div>
+          <p>
+            <span className="font-semibold text-sm">Select Variant: </span>
+          </p>
+          <Select
+            onValueChange={(selectedVariant) => {
+              const variantLink = product.variants[selectedVariant]?.link;
+              if (variantLink) {
+                window.location.href = variantLink; // Redirect to the selected variant's link
+              }
+            }}
+          >
+            <SelectTrigger className="w-[180px]">
+              <SelectValue placeholder={Object.keys(product.variants).find(variant => product.variants[variant].current) || "Choose a variant"} />
+            </SelectTrigger>
+            <SelectContent>
+              {Object.keys(product.variants)
+                .filter(variant => !product.variants[variant].current) // Exclude the current variant
+                .map((variant) => (
+                  <SelectItem key={variant} value={variant}>
+                    {variant}
+                  </SelectItem>
+                ))}
+            </SelectContent>
+          </Select>
+        </div>
+      )}
       <div className="flex space-x-4">
         <Button onClick={() => window.open(product.affiliate_link, '_blank')}>
           Buy Now 

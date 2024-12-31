@@ -20,6 +20,11 @@ export function ProductGrid({ title, products }: ProductGridProps) {
     }
   };
 
+  // Define your custom loader function
+  const customLoader = ({ src, width, quality }) => {
+    return `${src}?w=${width}&q=${quality || 75}`;
+  };
+
   return (
     <section id="product-grid" className="py-4">
       <div className="container mx-auto px-4">
@@ -52,22 +57,21 @@ export function ProductGrid({ title, products }: ProductGridProps) {
           className="flex gap-6 overflow-x-auto scroll-smooth py-2 hide-scrollbar"
         >
           {products.map((product) => (
-            <Card key={product.id} className="flex-none w-64 hover:shadow-2xl transition duration-300">
+            <Card key={product.id} className="flex-none w-64 hover:shadow-2xl transition duration-300 flex flex-col justify-between">
               <CardContent className="p-4">
-                <Image
-                  src={product.images[0]}
-                  alt={product.name}
-                  width={300}
-                  height={200}
-                  className="w-full h-48 object-cover rounded-md"
-                />
-                <h3 className="mt-2 text-lg font-semibold">{product.name}</h3>
-                <p className="text-orange-600 font-bold">₹{product.price.toFixed(2)}</p>
+              <Image
+                loader={customLoader}
+                src={product.images[0]}  // Your product image URL
+                alt={product.name}        // Product name as alt text
+                width={300}               // Desired width
+                height={200}              // Desired height
+                className="w-full h-48 object-cover rounded-md"
+              />
+                <h3 className="mt-2 text-sm font-semibold">{product.name}</h3>
+                <p className="text-orange-600 font-bold text-sm">₹{product.price.toFixed(2)}</p>
               </CardContent>
               <CardFooter>
-                <Button className="w-full">
-                  <Link href={`/product/${product.id}`}>View Product</Link>
-                </Button>
+                  <Link href={`/product/${product.id}`} className="w-full bg-gray-800 hover:bg-gray-700 text-white py-2 px-2 rounded text-sm flex flex-row justify-center">View Product</Link>
               </CardFooter>
             </Card>
           ))}

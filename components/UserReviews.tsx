@@ -14,9 +14,9 @@ interface UserReviewsProps {
 export function UserReviews({ reviews }: UserReviewsProps) {
   return (
     <div className="space-y-6">
-      <h2 className="text-2xl font-bold">Customer Reviews</h2>
+      <h2 className="text-xl font-bold">Customer Reviews</h2>
       {reviews.map((review) => (
-        <div key={review.id} className="border-b pb-4">
+        <div key={review.id} className="border-b pb-4 text-sm">
           <div className="flex items-center space-x-2 mb-2">
             <span className="font-semibold">{review.user}</span>
             <div className="flex">

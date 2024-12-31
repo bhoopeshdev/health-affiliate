@@ -41,18 +41,18 @@
               />
             </div>
             <div className="mb-12">
-              <h2 className="text-2xl font-bold mb-4">Product Description</h2>
+              <h2 className="text-xl font-bold mb-4">Product Description</h2>
               <h3 className="text-md mb-4">
                 {product.full_description.map((desc, index) => (
-                    <p key={index} className="mb-2">
-                      {desc}
-                    </p>
+                    <div key={index} className="mb-2 text-gray-800 text-sm"
+                      dangerouslySetInnerHTML={{ __html: desc }}
+                    />
                   ))}
               </h3>
             </div>
-            <div className="mb-12">
+            {product.reviews.length > 0 && <div className="mb-12">
               <UserReviews reviews={product.reviews} />
-            </div>
+            </div>}
             <div>
               <ProductGrid title="Related Products" products={relatedProducts} />
             </div>
