@@ -8,7 +8,9 @@ const nextConfig: NextConfig = {
       "cdn.shopify.com",
       "maxprotein.in",
       "www.ashpveda.com",
-      "theayurvedaco.com"
+      "theayurvedaco.com",
+      "krishival.com",
+      "bluetea.co.in"
     ], // Add other domains as needed
   },
 };

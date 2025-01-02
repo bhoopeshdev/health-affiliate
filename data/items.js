@@ -269,7 +269,7 @@ export const items = [
     "rating": 4,
     "reviews": [
     ],
-    "trending": true,
+    "trending": false,
     "tags": [
       "cookie",
       "cookies",
@@ -363,7 +363,7 @@ export const items = [
   },
   {
     "id": "7",
-    "name": "shukalmukatadi Pravahi Kwath, 700ml",
+    "name": "shukalmukatadi Pravahi Kwath, for Diabetic",
     "price": 595.00,
     "category": "herb",
     "subcategory": "diabetic",
@@ -547,140 +547,170 @@ export const items = [
   },
   {
     "id": "10",
-    "name": "Herbal Detox Tea",
-    "price": 12.99,
-    "category": "herb",
-    "subcategory": "Detox",
+    "name": "Dry Figs, Rich source of Fibre, Calcium & Iron",
+    "price": 600,
+    "category": "food",
+    "subcategory": "snacks",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://krishival.com/cdn/shop/files/DryFigs.png?v=1694596342&width=1100",
+      "https://krishival.com/cdn/shop/files/20287_1.jpg?v=1700222823&width=900",
+      "https://krishival.com/cdn/shop/files/Krishival-DryFigs-250g.png?v=1700222823&width=1000"
     ],
-    "short_description": "A gentle blend to support cleansing and detox.",
-    "full_description": ["This herbal detox tea features a mix of natural ingredients that promote digestion and detoxification."],
-    "affiliate_link": "https://affiliate.example.com/product/herbal-detox-tea",
+    "short_description": "Anjeer 250g from Krishival is a delicious and nutritious option for anyone who loves healthy snacks. These premium quality dried figs are packed with essential nutrients and natural sweetness. Perfect for snacking on their own or adding to your favorite dishes, Krishival’s anjeer is a versatile choice for every household. With competitive anjeer price, you can enjoy this healthy treat without breaking the bank.",
+    "full_description": [
+      "<p><strong>Rich in Nutrients</strong> Anjeer is loaded with vitamins and minerals, making it a powerhouse of nutrition</p>",
+      "<p><strong>Natural Sweetness</strong> Enjoy the sweet flavor of anjeer without any added sugars.</p>",
+      "<p><strong>Versatile Usage</strong> Use it in smoothies, salads, or just eat it straight from the pack.</p>",
+      "<p><strong>Health Benefits</strong> Anjeer supports digestion and can help maintain a healthy weight.</p>",
+      "<p><strong>Affordable Price</strong> With great anjeer price 250g, you get top quality without overspending.</p>",
+      "With Krishival’s anjeer, you’re not just buying dry figs; you’re investing in a healthier lifestyle. Order anjeer online today and experience the delightful taste of these dried fruits!"
+    ],
+    "affiliate_link": "https://bitli.in/vnsHyPD",
     "rating": 4.5,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Great product!"
+        "user": "Pradeep kumar",
+        "rating": 4,
+        "comment": "Dry fruits Figs quality is good. However almonds quality needs to improve."
       },
       {
         "id": 2,
-        "user": "User2",
-        "rating": 4,
-        "comment": "Really helpful and works as described."
+        "user": "Aadi Malhotra",
+        "rating": 5,
+        "comment": "Fig chewiness I adore."
       },
       {
         "id": 3,
-        "user": "User3",
+        "user": "Navya Rao",
         "rating": 4,
-        "comment": "Met my expectations, very satisfied."
+        "comment": "Sweet satisfaction at its finest."
       }
     ],
     "trending": false,
     "tags": [
-      "detox",
-      "tea",
-      "herbal",
-      "cleansing"
+      "dry figs",
+      "figs",
+      "dry fruits",
+      "anjeer",
+      "Krishival anjeer",
+      "Krishival",
+      "Krishival anjeer dry fruits",
+      "Krishival anjeer dry fruits 250g",
+      "Krishival anjeer 250g",
     ],
     "related_products": [
-      "2",
-      "5",
-      "9",
-      "14",
-      "16",
-      "17",
-      "23",
-      "28"
+      "11",
+      "12"
     ]
   },
   {
     "id": "11",
-    "name": "Organic Goji Berries",
-    "price": 18.99,
+    "name": "Roasted and Salted Pistachios, Gluten-Free",
+    "price": 490,
     "category": "food",
-    "subcategory": "Superfoods",
+    "subcategory": "snacks",
     "images": [
-      "/placeholder.svg"
+      "https://krishival.com/cdn/shop/files/Pistachios.png?v=1694596674&width=900",
+      "https://krishival.com/cdn/shop/files/20282_1.jpg?v=1700223002&width=900",
+      "https://krishival.com/cdn/shop/files/Krishival-Pistachios-250g.png?v=1700223002&width=900"
     ],
-    "short_description": "A sweet and nutritious snack.",
-    "full_description": ["Goji berries are rich in antioxidants and vitamins, supporting immune health and skin vitality."],
-    "affiliate_link": "https://affiliate.example.com/product/goji-berries",
-    "rating": 4.6,
+    "short_description": "Krishival's Pista 250g offers you a delightful taste of these premium quality nuts. Packed with flavor and nutrients, this product is perfect for snacking or adding to your favorite dishes. Each pack contains carefully selected, high-quality pistachios that are not only delicious but also healthy. Krishival is known for its commitment to quality, making this pista a great choice for nut lovers everywhere.",
+    "full_description": [
+      "<p><strong>High Quality</strong> Krishival ensures that every pistachio is selected for its premium quality.</p>",
+      "<p><strong>Nutritious Snack</strong> Rich in healthy fats, fiber, and protein, pista is a great snack option for energy.</p>",
+      "<p><strong>Versatile Use</strong> Perfect as a standalone snack, or add to salads, desserts, or trail mixes.</p>",
+      "<p><strong>Great Value</strong> With a competitive pista price, you get more for your money.</p>",
+      "<p><strong>Satisfaction Guaranteed</strong> Krishival stands by its products, ensuring you receive the best quality every time.</p>",
+      "When you think of pista price 250g, remember that Krishival offers a fantastic balance of quality and affordability. Enjoy the delicious taste and health benefits of Krishival's Pista 250g today!"
+    ],
+    "affiliate_link": "https://bitli.in/9G7GK4O",
+    "rating": 4.5,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Met my expectations, very satisfied."
+        "user": "Bhaskar maggidi",
+        "rating": 5,
+        "comment": "Nice"
       },
       {
         "id": 2,
-        "user": "User2",
+        "user": "Aadi Malhotra",
         "rating": 3,
-        "comment": "Met my expectations, very satisfied."
+        "comment": "They're perfect for outdoor adventures."
       },
       {
         "id": 3,
-        "user": "User3",
+        "user": "Zoya Singh",
         "rating": 3,
-        "comment": "Excellent quality, highly recommend."
+        "comment": "They make a nutritious addition to smoothie bowls."
       },
       {
         "id": 4,
-        "user": "User4",
+        "user": "Pari Menon",
         "rating": 4,
-        "comment": "Met my expectations, very satisfied."
+        "comment": "Great for celebrating small victories."
       }
     ],
     "trending": false,
     "tags": [
-      "goji berries",
-      "superfood",
-      "antioxidants",
-      "immune support"
+      "pista",
+      "pistachios",
+      "pistachios krishival",
+      "dry fruits",
+      "Krishival",
+      "Krishival pistachios"
     ],
     "related_products": [
-      "3",
-      "5",
-      "7",
-      "8",
-      "9",
-      "13",
-      "16",
-      "17",
-      "19",
-      "20",
-      "22",
-      "24",
-      "25",
-      "26",
-      "27",
-      "29",
-      "30"
+      "10",
+      "12"
     ]
   },
   {
     "id": "12",
-    "name": "Probiotic Capsules",
-    "price": 25.99,
-    "category": "supplement",
-    "subcategory": "Digestive Health",
+    "name": "California Salted Almonds",
+    "price": 340,
+    "category": "food",
+    "subcategory": "snacks",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://krishival.com/cdn/shop/files/AlmondSalted.png?v=1694596191&width=900",
+      "https://krishival.com/cdn/shop/files/20267_1_3d751979-169d-4de9-a995-8caa00b87d0e.jpg?v=1700222734&width=900",
+      "https://krishival.com/cdn/shop/files/Krishival-Almonds-100g.png?v=1700222734&width=900"
     ],
-    "short_description": "Supports gut health and digestion.",
-    "full_description": ["This probiotic formula includes multiple strains to promote a healthy gut microbiome."],
-    "affiliate_link": "https://affiliate.example.com/product/probiotic-capsules",
-    "rating": 4.8,
+    "short_description": "Discover Krishival's California Salted Almonds, the perfect snack for anyone who loves tasty and healthy treats! These premium, large-sized nuts are ethically sourced from farmers in California and Goa, ensuring you enjoy a delightful experience with every bite. Packed in convenient ziplock bags, they stay fresh longer, making them an excellent choice for guilt-free snacking. With a satisfying crunch and high protein content, these almonds are not just delicious but also good for you!",
+    "full_description": [
+      "<p><strong>Ethically Sourced</strong>Krishival cares about the farmers and the environment.</p>",
+      "<p><strong>High in Protein</strongGreat for energy and staying full.</p>",
+      "<p><strong>Lip Smacking Flavor</strong> A taste that you will crave!</p>",
+      "<p><strong>Convenient Packaging</strong>Ziplock bags keep them fresh and crunchy.</p>",
+      "California Salted Almonds stand out because they combine taste and health benefits. Unlike other snacks that may be filled with empty calories, these almonds offer real nutrition. They're perfect for school, sports, or just hanging out with friends. Enjoy a snack that nourishes your body while satisfying your taste buds!"
+    ],
+    "affiliate_link": "https://bitli.in/eoH1V0H",
+    "rating": 4.5,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Great product!"
+        "user": "Siddharth Agarwal",
+        "rating": 4,
+        "comment": "These almonds are packed with flavor and crunch. Love them!"
+      },
+      {
+        "id": 2,
+        "user": "Ashish Dey",
+        "rating": 5,
+        "comment": "Great snack choice! Fresh, salty, and crunchy."
+      },
+      {
+        "id": 3,
+        "user": "Jatin Soni",
+        "rating": 4,
+        "comment": "Just the right amount of salt. I eat these all the time."
+      },
+      {
+        "id": 4,
+        "user": "Rohan Bhat",
+        "rating": 5,
+        "comment": "Great snack to have around the house. Super fresh!"
       }
     ],
     "trending": true,
@@ -691,128 +721,119 @@ export const items = [
       "capsules"
     ],
     "related_products": [
-      "1",
-      "4",
-      "6",
-      "8",
-      "15",
-      "18",
-      "21",
-      "25",
-      "30"
+      "10",
+      "11"
     ]
   },
   {
     "id": "13",
-    "name": "Organic Almond Butter",
-    "price": 15.99,
-    "category": "food",
-    "subcategory": "Nut Butters",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "A creamy and healthy almond spread.",
-    "full_description": ["This organic almond butter is made from roasted almonds, offering a delicious and nutritious spread."],
-    "affiliate_link": "https://affiliate.example.com/product/almond-butter",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 5,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 3,
-        "comment": "Excellent quality, highly recommend."
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "almond butter",
-      "organic",
-      "nut butter",
-      "spread"
-    ],
-    "related_products": [
-      "1",
-      "3",
-      "5",
-      "7",
-      "11",
-      "17",
-      "19",
-      "20",
-      "22",
-      "24",
-      "26",
-      "27",
-      "29",
-      "30"
-    ]
-  },
-  {
-    "id": "14",
-    "name": "Herbal Sleep Aid",
-    "price": 22.99,
+    "name": "Belly Fat Herbal Infusion - 60 Tea Bags",
+    "price": 749.00,
+    "strike_price": 899.00,
     "category": "herb",
-    "subcategory": "Sleep Support",
+    "subcategory": "drinks",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://bluetea.co.in/cdn/shop/files/BELLYFAT_7a99c0c0-f7b2-4509-9ebc-b30e2768277f.png?v=1720088353",
+      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags",
+      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags",
+      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags",
+      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags",
+      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags"
+
     ],
-    "short_description": "Promotes restful sleep naturally.",
-    "full_description": ["This herbal formula helps calm the mind and body for a better night's rest."],
-    "affiliate_link": "https://affiliate.example.com/product/herbal-sleep-aid",
+    "short_description": "Belly Fat Herbal Infusion helps in overall weight management. A potent infusion of herbal goodness crafted to target stubborn belly fat.",
+    "full_description": [
+      "Helps to reduce Belly Fat",
+      "Helps to Enhance fat metabolism",
+      "Caffeine Free ",
+      "100% Natural",
+      "Sip 4 times daily"
+    ],
+    "affiliate_link": "https://bitli.in/6Vl19c7",
     "rating": 4.5,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
+        "user": "PARIKH HIRENKUMAR BABULAL ",
         "rating": 5,
-        "comment": "Great product!"
+        "comment": "Belly Fat Herbal Infusion - 60 Tea Bags"
+      }
+    ],
+    "trending": true,
+    "tags": [
+      "fat loss",
+      "weight management",
+      "fat burning",
+      "fat burning tea",
+      "tea",
+      "blue tea",
+      "herbal tea",
+      "herbal infusion",
+      "infusion"
+    ],
+    "related_products": [
+      "14"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Butterfly Pea Flower Herbal Infusion - 100 Teabags",
+    "price": 799.00,
+    "strike_price": 1299.00,
+    "category": "herb",
+    "subcategory": "drinks",
+    "images": [
+      "https://bluetea.co.in/cdn/shop/files/BT100PTB.png?v=1718697956",
+      "https://bluetea.co.in/cdn/shop/files/Add_lemon_to_enhance_taste_1.jpg?v=1720699764",
+      "https://bluetea.co.in/cdn/shop/files/How_to_Brew_When_to_take_teabag__final_fd5424e9-dfe0-4524-a18d-7e9818ac1e3b.jpg?v=1719205100"
+    ],
+    "short_description": "Calm yourself with our 100% Natural Butterfly Pea Infusion. These Ayurvedic Flowers are delicately plucked from the mystic Himalayas and brought fresh to your cups.",
+    "full_description": [
+      "Helps to reduce weight",
+      "Helps to detox",
+      "Caffeine Free",
+      "Enhance taste with lemon",
+      "Sip 4 times daily"
+    ],
+    "affiliate_link": "https://bitli.in/gUR8xo4",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "id": 1,
+        "user": "NAGAKAVITHA V",
+        "rating": 5,
+        "comment": "Using since a week.. Dont know whether i am too early to say this.. But it feels really light and relaxes my body.. Thank you"
       },
       {
         "id": 2,
-        "user": "User2",
+        "user": "Santi gurung ",
         "rating": 5,
-        "comment": "Really helpful and works as described."
+        "comment": "Blue tea is the best tea I love this thanku"
       },
       {
         "id": 3,
-        "user": "User3",
+        "user": "Vijay Swaminathan ",
         "rating": 3,
-        "comment": "Good value for the price."
+        "comment": "Pea Flower Herbal Infusion Flavour is great. I find the aroma very refreshing."
       },
       {
         "id": 4,
         "user": "User4",
         "rating": 5,
         "comment": "Good value for the price."
-      },
-      {
-        "id": 5,
-        "user": "User5",
-        "rating": 4,
-        "comment": "Really helpful and works as described."
       }
     ],
-    "trending": false,
+    "trending": true,
     "tags": [
-      "sleep aid",
-      "herbal",
-      "restful sleep",
-      "natural"
+      "fat loss",
+      "weight management",
+      "blue tea",
+      "herbal tea",
+      "herbal infusion",
+      "infusion"
     ],
     "related_products": [
-      "2",
-      "5",
-      "9",
-      "10",
-      "16",
-      "23",
-      "28"
+     "13"
     ]
   },
   {
