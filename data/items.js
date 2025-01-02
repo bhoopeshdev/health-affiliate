@@ -60,7 +60,7 @@ export const items = [
     "rating": 4.8,
     "reviews": [
     ],
-    "trending": true,
+    "trending": false,
     "tags": [
       "peanut butter",
       "gluten-free",
@@ -366,7 +366,7 @@ export const items = [
     "name": "shukalmukatadi Pravahi Kwath, 700ml",
     "price": 595.00,
     "category": "herb",
-    "subcategory": "juice",
+    "subcategory": "diabetic",
     "images": [
       "https://www.ashpveda.com/cdn/shop/files/ShukamukatadiKwath_480x480.webp?v=1718545313",
       "https://www.ashpveda.com/cdn/shop/files/ShukamukatadiIngts_480x480.webp?v=1718545315",
@@ -434,7 +434,7 @@ export const items = [
     "price": 319.00,
     "striked_price": 399.00,
     "category": "herb",
-    "subcategory": "juice",
+    "subcategory": "gut health",
     "images": [
       "https://www.ashpveda.com/cdn/shop/files/kumarirasasambhavingts_480x480.webp?v=1718544992",
       "https://www.ashpveda.com/cdn/shop/files/kumarirasasambhavBenefits_480x480.webp?v=1718544997",
@@ -476,70 +476,73 @@ export const items = [
   },
   {
     "id": "9",
-    "name": "Organic Spirulina Tablets",
-    "price": 19.99,
+    "name": "AyurJosh Shilajit Resin",
+    "price": 1295.00,
     "category": "herb",
-    "subcategory": "Superfoods",
+    "subcategory": "fitness",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://theayurvedaco.com/cdn/shop/files/724049782276-1_845e6407-a27d-47af-96ef-cdb489571ef2.jpg?v=1708703065&width=713",
+      "https://theayurvedaco.com/cdn/shop/files/724049782276-3.jpg?v=1708703065&width=713",
+      "https://theayurvedaco.com/cdn/shop/files/724049782276-4.jpg?v=1708703065&width=713",
+      "https://theayurvedaco.com/cdn/shop/files/724049782276-5.jpg?v=1708703065&width=713",
+      "https://theayurvedaco.com/cdn/shop/files/724049782276-7.jpg?v=1708703065&width=713",
+      "https://theayurvedaco.com/cdn/shop/files/724049782276-9.jpg?v=1708703065&width=713",
+      "https://theayurvedaco.com/cdn/shop/files/724049782276-10.jpg?v=1708703065&width=713"
     ],
-    "short_description": "A powerful superfood for energy and detox.",
-    "full_description": ["Spirulina is a nutrient-dense algae that supports detoxification, energy, and immune health."],
-    "affiliate_link": "https://affiliate.example.com/product/spirulina-tablets",
-    "rating": 4.7,
+    "short_description": "After exploring numerous Shilajit products in the market, I’ve carefully selected this one as a top choice for quality and affordability. Backed by outstanding reviews and trusted by many",
+    "full_description": [
+      "Mineral-Rich Vitality Pure Himalayan Shilajit: A Treasure of Minerals & Fulvic Acid.",
+      "Elevated Wellness Boost Your Energy & Clarity Naturally with Shilajit.",
+      "Detox & Absorption Enhance Detoxification & Nutrient Uptake with Shilajit.",
+      "Adaptogenic Strength Shilajit: Strengthen Your Stress Resilience Naturally."
+    ],
+    "affiliate_link": "https://bitli.in/UmtimCk",
+    "rating": 4.96,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
+        "user": "shashikant Shukla",
         "rating": 5,
-        "comment": "Met my expectations, very satisfied."
+        "comment": "Above 55 age must use it for better health"
       },
       {
         "id": 2,
-        "user": "User2",
-        "rating": 4,
-        "comment": "Great product!"
+        "user": "Vijender Seta",
+        "rating": 5,
+        "comment": "Great for both men and women. seems to be good quality"
       },
       {
         "id": 3,
-        "user": "User3",
-        "rating": 4,
-        "comment": "Excellent quality, highly recommend."
+        "user": "Jitendra Singh",
+        "rating": 5,
+        "comment": "Very nice product."
       },
       {
         "id": 4,
-        "user": "User4",
-        "rating": 4,
-        "comment": "Great product!"
+        "user": "Sh.Vipin Sahjadi",
+        "rating": 5,
+        "comment": "Relax my body and brain. After having corona I use to have pain in my whole body and second thing I was facing issue with Tiredness from small physical work but after using it I m feeling better."
       },
       {
         "id": 5,
-        "user": "User5",
-        "rating": 4,
-        "comment": "Good value for the price."
+        "user": "Jayda Khanak",
+        "rating": 5,
+        "comment": "Can't say much about other effects than stamina because those are only visible after a prolonged use of 3_4 months, But its a good product."
       }
     ],
     "trending": true,
     "tags": [
-      "spirulina",
-      "superfood",
-      "energy",
-      "detox"
+      "shilajit",
+      "shilajit resin",
+      "resin",
+      "vitality",
+      "men health",
+      "AyurJosh",
+      "AyurJosh Shilajit Resin"
     ],
     "related_products": [
-      "2",
-      "3",
-      "5",
       "7",
-      "10",
-      "11",
-      "14",
-      "16",
-      "17",
-      "20",
-      "23",
-      "26",
-      "28"
+      "8"
     ]
   },
   {
