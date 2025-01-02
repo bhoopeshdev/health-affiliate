@@ -20,12 +20,10 @@ export interface Review {
     reviews: Review[];
     trending: boolean;
     tags: string[];
-    // variants having key as atring and values as json object
     variants?: { [key: string]: {
         link?: string;
         current?: boolean;
-      }; 
-    };
+      } | undefined }; 
   }
   
   export interface ProductGridProps {

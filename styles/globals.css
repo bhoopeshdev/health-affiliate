@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.teko-font {
+  font-family: "Teko", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 @layer utilities {
   .animate-gradient-x {
     animation: gradient-x 15s ease infinite;

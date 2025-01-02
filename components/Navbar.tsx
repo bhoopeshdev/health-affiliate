@@ -33,7 +33,7 @@ export function Navbar() {
       setSuggestions(
         items.filter((item) =>
           item.tags.some((tag) => tag.toLowerCase().includes(value.toLowerCase()))
-        )
+        ) as Product[]
       );
     } else {
       setSuggestions([]);
@@ -60,8 +60,8 @@ export function Navbar() {
     <nav className="relative bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold text-orange-600">
-          BDHealthClub
+        <Link href="/" className="text-2xl font-bold text-orange-600 teko-font">
+          BDHEALTHCLUB
         </Link>
 
         {/* Search Bar */}

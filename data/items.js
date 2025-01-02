@@ -1,7 +1,7 @@
 export const items = [
   {
     "id": "1",
-    "name": "Max Protein Peanut Butter Classic Crunchy",
+    "name": "Max Protein Peanut Butter Classic Crunchy, 340 gm",
     "price": 169,
     "category": "food",
     "subcategory": "healthy-snacks",
@@ -20,10 +20,10 @@ export const items = [
     "trending": true,
     "tags": [
       "peanut butter",
+      "butter",
       "gluten-free",
       "superfood",
       "peanuts",
-      "chocolate",
       "crunchy",
       "snack",
       "spread"
@@ -44,7 +44,7 @@ export const items = [
   },
   {
     "id": "2",
-    "name": "Max Protein Peanut Butter Choco Creamy",
+    "name": "Max Protein Peanut Butter Choco Creamy, 340 gm",
     "price": 175,
     "category": "food",
     "subcategory": "healthy-snacks",
@@ -97,10 +97,10 @@ export const items = [
     ],
     "short_description": "<p>After extensively comparing multiple whey protein powders on the market, I found that Max Protein Whey in Irish Chocolate offers an unbeatable combination of taste, nutrition, and affordability.</p><p>Currently available at a special price, please use Coupon code WHEY60 and get 60% off.</p>",
     "full_description": [
-      "<p><strong>Delight Your Taste Buds with Irresistible Irish Chocolate </strong></p> <p>Max Protein's premium Whey Protein Powder in the Irish Chocolate flavor is a game-changer for fitness enthusiasts and chocolate lovers alike. Combining the indulgent taste of rich, creamy chocolate with the power of high-quality whey protein, this blend offers a delicious way to support your fitness journey. Whether you're recovering post-workout or looking for a nutritious snack, the Irish Chocolate flavor makes every serving a treat to savor.</p>",
-      "<p><strong>Packed with Premium Nutrition </strong></p> <p>Each serving delivers 24 grams of premium whey protein, providing the essential building blocks your body needs to repair and grow muscles effectively. Designed to fuel your fitness goals, this protein is perfect for athletes, gym-goers, and anyone looking to enhance their daily protein intake. The addition of 5.2 grams of Branched-Chain Amino Acids (BCAAs) further elevates your performance, promoting faster muscle recovery and reducing fatigue after intense workouts.</p>",
-      "<p><strong>Guilt-Free Indulgence</strong></p><p> Enjoy the luxurious taste of Irish chocolate without compromising your health. With zero added sugar, this whey protein powder is crafted to deliver a delightful chocolate experience while keeping your nutritional goals intact. The carefully balanced formula ensures you can indulge in your favorite flavor without the worry of unnecessary calories or sugar content.</p>",
-      "<p><strong>Enhanced Digestive Comfort</strong></p><p> Max Protein Irish Chocolate Whey Protein Powder is fortified with Digezyme, a proprietary blend of digestive enzymes that ensures optimal absorption and digestion. Say goodbye to post-protein discomfort and hello to smooth digestion, allowing your body to fully utilize the nutrients in every scoop.</p>",
+      "<p><strong>Delight Your Taste Buds with Irresistible Irish Chocolate </strong></p> <p>Max Protein's Irish Chocolate Whey Protein is a perfect blend of rich, creamy chocolate and high-quality whey protein. Ideal for post-workout recovery or a nutritious snack, it’s a delicious way to support your fitness journey.</p>",
+      "<p><strong>Packed with Premium Nutrition </strong></p> <p>Each serving provides 24g of premium whey protein and 5.2g of BCAAs, supporting muscle growth, faster recovery, and reduced workout fatigue—perfect for athletes and fitness enthusiasts..</p>",
+      "<p><strong>Guilt-Free Indulgence</strong></p><p> Enjoy the rich taste of Irish chocolate guilt-free. With zero added sugar, this whey protein delivers indulgent flavor while supporting your nutritional goals.</p>",
+      "<p><strong>Enhanced Digestive Comfort</strong></p><p>Max Protein Irish Chocolate Whey is enriched with Digezyme, a digestive enzyme blend for optimal nutrient absorption and smooth digestion, free from discomfort.</p>",
       "<p><strong>Proudly Made in India</strong></p><p> Crafted with precision and care in India, Max Protein takes pride in delivering international-quality products with a touch of local excellence. The Irish Chocolate flavor embodies this commitment, offering you a premium product that blends rich taste, superior nutrition, and unmatched quality.</p>",
       "<p>Transform your fitness routine with Max Protein Irish Chocolate Whey Protein Powder. Elevate your workouts, recover faster, and indulge in the goodness of chocolate like never before.</p>"
     ],
@@ -155,14 +155,18 @@ export const items = [
   },
   {
     "id": "4",
-    "name": "Max Protein Choco Chips Cookie",
-    "price": 300,
+    "name": "Max Protein Choco Chips Cookie - Pack of 12",
+    "price": 600,
     "category": "food",
     "subcategory": "healthy-snacks",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0512/8827/7146/products/1_ddbfc195-d4a2-48ab-ae4a-ec8952b8dbcc.jpg?v=1657296747",
-      "https://cdn.shopify.com/s/files/1/0512/8827/7146/files/Ingredients_cookies_-min_c2b8ef7f-abe7-4513-a686-b6657972a9a7.png?v=1638817959",
-      "https://cdn.shopify.com/s/files/1/0512/8827/7146/files/Max_Protein_Cookies_e698092b-a811-4451-a6e0-c365403fe909.png?v=1638270816"
+      "https://maxprotein.in/cdn/shop/products/Mood-Shot_65bfd05b-ff9c-4484-b7d9-f4502151b4f8.png?v=1677667801",
+      "https://maxprotein.in/cdn/shop/products/Pack-Shot_f6c5ae8e-1ce6-40f3-9dee-f41ef8d2e211.png?v=1677667801",
+      "https://maxprotein.in/cdn/shop/products/3_fe554e7a-d4a9-4106-8826-5143ee3efec3.jpg?v=1677667801",
+      "https://maxprotein.in/cdn/shop/products/4_ee59a85c-0f86-4ed6-acbc-9f18d8b3a591.jpg?v=1677667801",
+      "https://maxprotein.in/cdn/shop/products/5_8f892be0-45e2-45e0-afb7-e4ce6962dc81.jpg?v=1677742488",
+      "https://maxprotein.in/cdn/shop/products/6_1a66a7d7-8164-4f84-8d6b-7840d9f177db.jpg?v=1677742488",
+      "https://maxprotein.in/cdn/shop/products/7_6cf77c71-c211-4a1b-896b-f1240d7377a4.jpg?v=1677742488"
     ],
     "short_description": "7 Grain Breakfast Cookie loaded with Protein, Fiber and calcium, NO MAIDA, GMO-FREE, NO Preservatives",
     "full_description": [
@@ -221,257 +225,255 @@ export const items = [
       "1",
       "2",
       "3"
-    ]
+    ],
+    "variants": {
+      "choco chips cookie" : {
+        "link" : "/product/4",
+        "current" : true
+      },
+      "choco almond cookie" : {
+        "link" : "/product/5"
+      },
+      "cashew delight cookie" : {
+        "link" : "/product/6"
+      }
+    }
   },
   {
     "id": "5",
-    "name": "Moringa Powder",
-    "price": 14.99,
-    "category": "herb",
-    "subcategory": "Superfoods",
+    "name": "Max Protein Cookies Choco Almond 60g | Zero Added Sugar - Pack of 12",
+    "price": 720,
+    "category": "food",
+    "subcategory": "healthy-snacks",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://maxprotein.in/cdn/shop/products/Mood-Shot_0a5d2a54-964a-40d5-bb85-1d9e6a59855e.png?v=1677667090",
+      "https://maxprotein.in/cdn/shop/products/Single-Pack_f33e6d7f-b11e-4c28-aa2f-2b9380e61be3.png?v=1677667090",
+      "https://maxprotein.in/cdn/shop/products/3_d131759f-98ab-472b-b866-37bddf237683.jpg?v=1677667090",
+      "https://maxprotein.in/cdn/shop/products/4_8c2ed110-a459-4e33-865a-2abba17a77d7.jpg?v=1677667090",
+      "https://maxprotein.in/cdn/shop/products/5_2986770f-362e-487e-a265-8db0c1ee761e.jpg?v=1677667090",
+      "https://maxprotein.in/cdn/shop/products/6_8e8b6892-421b-4333-b1ee-d44f1b3c0697.jpg?v=1677667090",
+      "https://maxprotein.in/cdn/shop/products/7_3558007e-6744-43ee-a956-a69fcab8eb56.jpg?v=1677667090"
+
     ],
-    "short_description": "A nutrient-dense green superfood.",
-    "full_description": ["Moringa powder is packed with vitamins, minerals, and antioxidants, supporting energy and overall wellness."],
-    "affiliate_link": "https://affiliate.example.com/product/moringa-powder",
-    "rating": 4.5,
+    "short_description": "7 Grain Breakfast Cookie loaded with Protein, Fiber and calcium, with the taste of chocolate and almond, NO MAIDA, GMO-FREE, NO Preservatives",
+    "full_description": [
+      "<p><strong>Zero Added Sugar:</strong> It has zero sugar and is suitable for your weight management goals, diabetes, midnight cravings, on the go, pre or post workout, choti bhook, energy for everyday fitness or for your hurried breakfast.</p>",
+      "<p><strong>Clean Indulgence:</strong> Indulge in our Max Protein cookies while meeting your diet goals. Each bite only takes you towards your goal. These delicious protein cookies have the right amount of carbs, protein, and a whole lot of flavor.</p>",
+      "<p><strong>Committed to Nutrition:</strong> Committed to your health and taste buds, we at Max protein ensure nutrition in every bite. Our Protein cookies have 12 gm Protein which equals 1 Glass of Milk (300ml), 8 gm of Fiber which equals 2 apples (300g), and 300mg of Calcium. It can’t get better than this.</p>",
+      "<p><strong>Goodness of Grains:</strong> Our cookies are made with the goodness of 7 grains: Oats, Ragi, Quinoa, Corn, Wheat, Bengal gram, and Amaranth. This keeps you full and helps you curb your cravings.</p>",
+      "<p><strong>No Nasties:</strong> These cookies were created from a simple idea: food should taste as good for you with zero compromises. We don’t add preservatives, GMO-Free, and we don’t use MAIDA.</p>",
+      "<p><strong>Comfort Foods for Cravings:</strong> Be it breakfast or midnight cravings or post-lunch sweet tooth cravings, our Max Protein Cookie is a sweet treat that you can indulge in without feeling guilty.</p>",
+      "<p><strong>Made in India:</strong> Max Protein Cookies is crafted by the same company under the same brand which has created and nurtured the protein bars category in the Indian market.</p>",
+    ],
+    "affiliate_link": "https://maxprotein.in/products/max-protein-cookies-choco-almond-pack-of-1-60g-zero-added-sugar?sca_ref=7723757.V6DwwM7vHI&utm_source=affiliate&utm_medium=uppromote&utm_campaign=standardaffiliateprogram",
+    "rating": 4,
     "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Met my expectations, very satisfied."
-      }
     ],
     "trending": true,
     "tags": [
-      "moringa",
-      "superfood",
-      "organic",
-      "energy"
+      "cookie",
+      "cookies",
+      "almond",
+      "chocolate",
+      "almond cookie",
+      "almond cookies",
+      "healthy snacks",
+      "snacks",
+      "max protein cookies choco almond",
     ],
     "related_products": [
       "1",
       "2",
       "3",
-      "7",
-      "9",
-      "10",
-      "11",
-      "13",
-      "14",
-      "16",
-      "17",
-      "19",
-      "20",
-      "22",
-      "23",
-      "24",
-      "26",
-      "27",
-      "28",
-      "29",
-      "30"
-    ]
+      "4",
+      "6"
+    ],
+    "variants": {
+      "choco chips cookie" : {
+        "link" : "/product/4",
+      },
+      "choco almond cookie" : {
+        "link" : "/product/5",
+        "current" : true
+      },
+      "cashew delight cookie" : {
+        "link" : "/product/6"
+      }
+    }
   },
   {
     "id": "6",
-    "name": "Omega-3 Fish Oil",
-    "price": 21.99,
-    "category": "supplement",
-    "subcategory": "Heart Health",
+    "name": "Max Protein Cookies Cashew Delite 60g | Zero Added Sugar - Pack of 12",
+    "price": 720,
+    "category": "food",
+    "subcategory": "healthy-snacks",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://maxprotein.in/cdn/shop/products/Mood-Shot_2be95842-9140-411d-ab29-f5f44fde2215.png?v=1677666406",
+      "https://maxprotein.in/cdn/shop/products/Single-Pack_166f3c8b-6896-4f22-b968-85a80b022e32.png?v=1677666406",
+      "https://maxprotein.in/cdn/shop/products/3_e331b265-5bad-4029-9227-9e707011b9b1.jpg?v=1677666406",
+      "https://maxprotein.in/cdn/shop/products/4_2b91e3d8-a2ee-4627-8c75-5c0a8bbe84c4.jpg?v=1677666406",
+      "https://maxprotein.in/cdn/shop/products/5_de33c7bd-5e10-44ad-ad96-acd12d84b1b9.jpg?v=1677742569",
+      "https://maxprotein.in/cdn/shop/products/5_de33c7bd-5e10-44ad-ad96-acd12d84b1b9.jpg?v=1677742569",
+      "https://maxprotein.in/cdn/shop/products/6_73eea872-8d4d-4fda-8ba7-bbd2851ec752.jpg?v=1677742569",
+      "https://maxprotein.in/cdn/shop/products/7_eb20c1d6-06a4-40b5-ba25-d4d2391ef52d.jpg?v=1677742569"
     ],
-    "short_description": "Promotes heart and brain health.",
-    "full_description": ["This high-potency omega-3 fish oil supplement is sustainably sourced and supports cardiovascular and cognitive health."],
-    "affiliate_link": "https://affiliate.example.com/product/omega-3-fish-oil",
-    "rating": 4.9,
+    "short_description": "7 Grain Breakfast Cookie loaded with Protein, Fiber and calcium, with the taste of cashew, NO MAIDA, GMO-FREE, NO Preservatives",
+    "full_description": [
+      "<p><strong>Zero Added Sugar:</strong> It has zero sugar and is suitable for your weight management goals, diabetes, midnight cravings, on the go, pre or post workout, choti bhook, energy for everyday fitness or for your hurried breakfast.</p>",
+      "<p><strong>Clean Indulgence:</strong> Indulge in our Max Protein cookies while meeting your diet goals. Each bite only takes you towards your goal. These delicious protein cookies have the right amount of carbs, protein, and a whole lot of flavor.</p>",
+      "<p><strong>Committed to Nutrition:</strong> Committed to your health and taste buds, we at Max protein ensure nutrition in every bite. Our Protein cookies have 12 gm Protein which equals 1 Glass of Milk (300ml), 8 gm of Fiber which equals 2 apples (300g), and 300mg of Calcium. It can’t get better than this.</p>",
+      "<p><strong>Goodness of Grains:</strong> Our cookies are made with the goodness of 7 grains: Oats, Ragi, Quinoa, Corn, Wheat, Bengal gram, and Amaranth. This keeps you full and helps you curb your cravings.</p>",
+      "<p><strong>No Nasties:</strong> These cookies were created from a simple idea: food should taste as good for you with zero compromises. We don’t add preservatives, GMO-Free, and we don’t use MAIDA.</p>",
+      "<p><strong>Comfort Foods for Cravings:</strong> Be it breakfast or midnight cravings or post-lunch sweet tooth cravings, our Max Protein Cookie is a sweet treat that you can indulge in without feeling guilty.</p>",
+      "<p><strong>Made in India:</strong> Max Protein Cookies is crafted by the same company under the same brand which has created and nurtured the protein bars category in the Indian market.</p>",
+    ],
+    "affiliate_link": "https://maxprotein.in/products/copy-of-max-protein-cookies-choco-almond-pack-of-1-60g-zero-added-sugar?sca_ref=7723757.V6DwwM7vHI&utm_source=affiliate&utm_medium=uppromote&utm_campaign=standardaffiliateprogram",
+    "rating": 4,
     "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 5,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 5,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 5,
-        "comment": "Met my expectations, very satisfied."
-      },
-      {
-        "id": 4,
-        "user": "User4",
-        "rating": 4,
-        "comment": "Met my expectations, very satisfied."
-      }
     ],
-    "trending": true,
+    "trending": false,
     "tags": [
-      "omega-3",
-      "fish oil",
-      "heart health",
-      "brain health"
+      "cookie",
+      "cookies",
+      "cashew",
+      "cashew cookies",
+      "cashew cookie",
+      "healthy snacks",
+      "snacks"
     ],
     "related_products": [
-      "1",
-      "3",
       "4",
-      "8",
-      "12",
-      "15",
-      "18",
-      "20",
-      "21",
-      "22",
-      "25",
-      "29"
-    ]
+      "5",
+      "1",
+      "2",
+      "3",
+    ],
+    "variants": {
+      "choco chips cookie" : {
+        "link" : "/product/4"
+      },
+      "choco almond cookie" : {
+        "link" : "/product/5"
+      },
+      "cashew delight cookie" : {
+        "link" : "/product/6",
+        "current" : true
+      }
+    }
   },
   {
     "id": "7",
-    "name": "Organic Matcha Green Tea",
-    "price": 16.99,
-    "category": "food",
-    "subcategory": "Beverages",
+    "name": "shukalmukatadi Pravahi Kwath, 700ml",
+    "price": 595.00,
+    "category": "herb",
+    "subcategory": "juice",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://www.ashpveda.com/cdn/shop/files/ShukamukatadiKwath_480x480.webp?v=1718545313",
+      "https://www.ashpveda.com/cdn/shop/files/ShukamukatadiIngts_480x480.webp?v=1718545315",
+      "https://www.ashpveda.com/cdn/shop/files/ShukamukatadiBenefit_480x480.webp?v=1718545317"
     ],
-    "short_description": "A premium organic matcha for energy and focus.",
-    "full_description": ["This matcha green tea is sourced from organic farms in Japan, offering a vibrant flavor and health benefits."],
-    "affiliate_link": "https://affiliate.example.com/product/matcha-green-tea",
-    "rating": 4.8,
+    "short_description": "I found this herbal juice to be a great option for those who want to control their blood sugar levels. It is a natural and healthy way to take care of your body.",
+    "full_description": [
+      "<p><strong>Natural & Ayurvedic Ingredients</strong> Embark on a journey of wellness with Ashpveda's Shukalmukatadi Kwath, a sublime fusion of revered Ayurvedic ingredients like Falendra, Valree, and Soma — each meticulously sourced and certified by the Ministry of AYUSH.</p>",
+      "<p><strong>Balances Blood Sugar Levels</strong> Elevate wellness with a blend that maintains blood sugar, stimulates the pancreas, boosts immunity, and enhances energy. Crafted with premium Ayurvedic herbs for a sophisticated health experience.</p>",
+      "<p><strong>Crafted in India</strong> Our products embody the essence of our rich heritage, showcasing rare ingredients meticulously and ethically sourced from diverse corners of the country.</p>",
+      "<p><strong>Usage</strong> 25 ml, twice a day with Luke-warm water, half an hour after meal or As directed by physician.</p>"
+    ],
+    "affiliate_link": "https://bitli.in/TAJ8V64",
+    "rating": 4,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Met my expectations, very satisfied."
+        "user": "Anonymous",
+        "rating": 5,
+        "comment": "Nice product.Doesn't taste that Bad..but gives a natural taste. I m feeling bit better by having it regularly from a week.Happy with it."
       },
       {
         "id": 2,
-        "user": "User2",
-        "rating": 3,
-        "comment": "Great product!"
+        "user": "Karthik",
+        "rating": 4,
+        "comment": "Now it has been 8 months my parents are having this drink twice a day. Overall this product is a wonder at our home, my mom's sugar levels drastically dropped within 3 weeks of usage.Considering this a natural therapy there are zero side effects on using this product.I'm so happy for my parents good health Thank you ashpveda"
       },
       {
         "id": 3,
-        "user": "User3",
+        "user": "Anonymous",
         "rating": 5,
-        "comment": "Great product!"
+        "comment": "Taste bad but it helps in maintaining sugar level maharashtra"
       },
       {
         "id": 4,
-        "user": "User4",
-        "rating": 5,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 5,
-        "user": "User5",
-        "rating": 5,
-        "comment": "Really helpful and works as described."
+        "user": "Sonia",
+        "rating": 3,
+        "comment": "Best syrup for diabetes syrup is very effective. I am feeling fine and fit now."
       }
     ],
     "trending": true,
     "tags": [
-      "matcha",
-      "green tea",
-      "energy",
-      "focus",
-      "organic"
+      "syrup",
+      "juice",
+      "diabetes",
+      "sugar",
+      "sugar control",
+      "healthy",
+      "shukalmukatadi Pravahi Kwath",
+      "ashpveda",
+      "shukalmukatadi",
+      "shukalmukatadi kwath",
+      "shukalmukatadi pravahi",
+      "pravahi kwath",
+      "pravahi",
+      "kawath"
     ],
     "related_products": [
-      "1",
-      "3",
-      "5",
-      "9",
-      "11",
-      "13",
-      "17",
-      "19",
-      "20",
-      "22",
-      "24",
-      "26",
-      "27",
-      "28",
-      "29",
-      "30"
+      "8",
     ]
   },
   {
     "id": "8",
-    "name": "Vitamin C Gummies",
-    "price": 14.99,
-    "category": "supplement",
-    "subcategory": "Immune Support",
+    "name": "Kumarirasasambhav Pravahi Kwath, 450ml",
+    "price": 319.00,
+    "striked_price": 399.00,
+    "category": "herb",
+    "subcategory": "juice",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://www.ashpveda.com/cdn/shop/files/kumarirasasambhavingts_480x480.webp?v=1718544992",
+      "https://www.ashpveda.com/cdn/shop/files/kumarirasasambhavBenefits_480x480.webp?v=1718544997",
+      "https://www.ashpveda.com/cdn/shop/files/kumarirasasambhavHowtoUse_480x480.webp?v=1718544999"
     ],
-    "short_description": "Boosts immune health with a tasty chewable.",
-    "full_description": ["These gummies deliver a powerful dose of vitamin C to support your immune system and overall wellness."],
-    "affiliate_link": "https://affiliate.example.com/product/vitamin-c-gummies",
-    "rating": 4.6,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 5,
-        "comment": "Great product!"
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 4,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 3,
-        "comment": "Good value for the price."
-      },
-      {
-        "id": 4,
-        "user": "User4",
-        "rating": 4,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 5,
-        "user": "User5",
-        "rating": 3,
-        "comment": "Great product!"
-      }
+    "short_description": "I found this herbal juice that helps in nurturing your body within. It balances your digestive system, soothees the gut and revives your skin.",
+    "full_description": [
+      "These gummies deliver a powerful dose of vitamin C to support your immune system and overall wellness.",
+      "<p><strong>Natural Gut Lubrication</strong> Provides gentle, natural lubrication to support smoother digestion and intestinal health.</p>",
+      "<p><strong>Aids Gut Health</strong> Soothes and strengthens the gut lining, supporting overall digestive balance.</p>",
+      "<p><strong>Promotes Collagen Production</strong> Stimulates natural collagen synthesis for firmer, youthful skin.</p>",
+      "<p><strong>Improves Skin Health</strong> Enhances skin elasticity and hydration, promoting a natural, radiant glow.</p>",
+      "<p><strong>Balances pH Levels</strong> Helps maintain a balanced pH, fostering an ideal environment for wellness.</p>",
+      "<p><strong>Usage</strong> 20 ml - 25 ml twice a day with luke-warm water, half an hour after meal or as directed by a physician.</p>"
     ],
+    "affiliate_link": "https://bitli.in/sI5ka4Y",
+    "rating": 0,
     "trending": false,
     "tags": [
-      "vitamin C",
-      "gummies",
-      "immune support",
-      "chewable"
+      "juice",
+      "ashpveda",
+      "aloe vera",
+      "aloevera",
+      "aloe vera juice",
+      "aloevera juice",
+      "kumarirasasambhav",
+      "kumarirasasambhav pravahi kwath",
+      "kumarirasasambhav pravahi",
+      "kumarirasasambhav kwath",
+      "pravahi kwath",
+      "pravahi",
+      "kawath",
+      "kumarirasasambhav kwath",
+      "kumarirasasambhav pravahi kwath",
     ],
     "related_products": [
-      "1",
-      "4",
-      "6",
-      "11",
-      "12",
-      "15",
-      "16",
-      "18",
-      "21",
-      "25"
-    ]
+      "7"
+    ],
+    "reviews": []
   },
   {
     "id": "9",
