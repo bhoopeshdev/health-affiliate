@@ -7,6 +7,7 @@ import { useWishlist } from '../context/WishlistContext'
 import { useRouter } from "next/navigation"
 import { items } from '../data/items'
 import { Product } from '../data/types'
+import Image from "next/image";
 
 export function Navbar() {
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
@@ -60,8 +61,13 @@ export function Navbar() {
     <nav className="relative bg-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-2xl font-bold text-orange-600 teko-font">
-          BDHEALTHCLUB
+        <Link href="/" className="text-lg font-bold text-orange-600 dela-gothic-one-regular flex flex-row items-center justify-center">
+          <Image
+            src={"/bdhealthclub.png"}
+            alt="No-Image"
+            width={200}
+            height={25}
+          />
         </Link>
 
         {/* Search Bar */}

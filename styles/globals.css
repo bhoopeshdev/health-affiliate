@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.teko-font {
-  font-family: "Teko", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
+.dela-gothic-one-regular {
+  font-family: "Dela Gothic One", serif;
+  font-weight: 400;
   font-style: normal;
 }
 
