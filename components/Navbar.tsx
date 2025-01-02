@@ -1,130 +1,35 @@
 import Link from 'next/link'
-import React, { useState, useEffect, useRef } from 'react'
-import { Input } from "@/components/ui/input"
+import React, { useState } from 'react'
 import { Heart } from 'lucide-react'
 import WishlistPopup from './WishListPopup'
 import { useWishlist } from '../context/WishlistContext'
-import { useRouter } from "next/navigation"
-import { items } from '../data/items'
-import { Product } from '../data/types'
 import Image from "next/image";
+import { SearchBar } from './SearchBar'
 
 export function Navbar() {
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
   const { wishlist } = useWishlist();
-  const [searchText, setSearchText] = useState("");
-  const [suggestions, setSuggestions] = useState<Product[]>([]);
-  const router = useRouter();
-  const suggestionsRef = useRef<HTMLDivElement>(null); // Create a ref for the dropdown
-
-  const handleSearch = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === "Enter") {
-      router.push(`/list?search=${searchText}`);
-      setSearchText(""); // Clear the input
-      setSuggestions([]); // Clear suggestions
-    }
-  };
-
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value;
-    setSearchText(value);
-
-    if (value && value.length > 2) {
-      // Filter suggestions based on input
-      setSuggestions(
-        items.filter((item) =>
-          item.tags.some((tag) => tag.toLowerCase().includes(value.toLowerCase()))
-        ) as Product[]
-      );
-    } else {
-      setSuggestions([]);
-    }
-  };
-
-  const handleClickOutside = (event: MouseEvent) => {
-    if (
-      suggestionsRef.current &&
-      !suggestionsRef.current.contains(event.target as Node)
-    ) {
-      setSuggestions([]); // Clear suggestions if clicked outside
-    }
-  };
-
-  useEffect(() => {
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
 
   return (
     <nav className="relative bg-white shadow-md">
-      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="container mx-auto px-4 py-3 flex gap-4 items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="text-lg font-bold text-orange-600 dela-gothic-one-regular flex flex-row items-center justify-center">
+        <Link href="/" className="flex flex-row items-center justify-center">
           <Image
-            src={"/bdhealthclub.png"}
+            src="/favicon.png"
             alt="No-Image"
-            width={200}
+            width={25}
             height={25}
           />
+          <p className="text-lg font-bold text-gray-600 dela-gothic-one-regular">
+            BdHealthClub
+          </p>
         </Link>
 
-        {/* Search Bar */}
-        <div className="flex-1 mx-4">
-          <div className="relative w-full flex justify-center">
-            {/* Input with Search Icon */}
-            <div className="relative w-full max-w-[600px]">
-              <span className="absolute inset-y-0 left-3 flex items-center text-gray-500">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM21 21l-4.35-4.35"
-                  />
-                </svg>
-              </span>
-              <Input
-                type="text"
-                placeholder="Search products..."
-                className="w-full pl-10"
-                value={searchText}
-                onChange={handleInputChange}
-                onKeyDown={handleSearch}
-              />
-            </div>
-
-            {suggestions.length > 0 && (
-              <div
-                ref={suggestionsRef} // Attach the ref to the suggestions container
-                className="absolute top-full mt-2 w-full z-10 bg-white border border-gray-300 shadow-lg rounded-md"
-              >
-                <ul>
-                  {suggestions.map((suggestion, index) => (
-                    <li
-                      key={index}
-                      className="px-4 py-2 cursor-pointer hover:bg-gray-100"
-                      onClick={() => {
-                        setSearchText(suggestion.name);
-                        setSuggestions([]);
-                        router.push(`/product/${suggestion.id}`);
-                      }}
-                    >
-                      {suggestion.name}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        </div>
+        {/* Search Bar for larger screens */}
+        <div className="hidden sm:block w-full">
+          <SearchBar />
+        </div>      
 
         {/* Wishlist Button */}
         <button
@@ -142,6 +47,12 @@ export function Navbar() {
           )}
         </button>
       </div>
+
+      {/* Search Bar for smaller screens */}
+      <div className="block sm:hidden px-4 pb-3">
+        <SearchBar />
+      </div>
+
       <WishlistPopup isOpen={isWishlistOpen} onClose={() => setIsWishlistOpen(false)} />
     </nav>
   );
