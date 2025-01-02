@@ -442,7 +442,6 @@ export const items = [
     ],
     "short_description": "I found this herbal juice that helps in nurturing your body within. It balances your digestive system, soothees the gut and revives your skin.",
     "full_description": [
-      "These gummies deliver a powerful dose of vitamin C to support your immune system and overall wellness.",
       "<p><strong>Natural Gut Lubrication</strong> Provides gentle, natural lubrication to support smoother digestion and intestinal health.</p>",
       "<p><strong>Aids Gut Health</strong> Soothes and strengthens the gut lining, supporting overall digestive balance.</p>",
       "<p><strong>Promotes Collagen Production</strong> Stimulates natural collagen synthesis for firmer, youthful skin.</p>",
