@@ -10,7 +10,18 @@ const nextConfig: NextConfig = {
       "www.ashpveda.com",
       "theayurvedaco.com",
       "krishival.com",
-      "bluetea.co.in"
+      "bluetea.co.in",
+      "img1.hkrtcdn.com",
+      "img2.hkrtcdn.com",
+      "img3.hkrtcdn.com",
+      "img4.hkrtcdn.com",
+      "img5.hkrtcdn.com",
+      "img6.hkrtcdn.com",
+      "img7.hkrtcdn.com",
+      "img8.hkrtcdn.com",
+      "img9.hkrtcdn.com",
+      "img10.hkrtcdn.com",
+      "www.sova.health"
     ], // Add other domains as needed
   },
 };

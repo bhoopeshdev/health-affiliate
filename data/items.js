@@ -838,237 +838,263 @@ export const items = [
   },
   {
     "id": "15",
-    "name": "Collagen Peptides",
-    "price": 29.99,
+    "name": "HK Vitals Multivitamin with Zinc & Vitamin C - 60 Tablets",
+    "price": 349.00,
+    "strike_price": 529.00,
     "category": "supplement",
-    "subcategory": "Skin & Joint Health",
+    "subcategory": "tablets",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://img4.hkrtcdn.com/34916/prd_3491593-HK-Vitals-Multivitamin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img10.hkrtcdn.com/34978/prd_3497799-HK-Vitals-Multivitamin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img2.hkrtcdn.com/34979/prd_3497851-HK-Vitals-Multivitamin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img2.hkrtcdn.com/34979/prd_3497801-HK-Vitals-Multivitamin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img4.hkrtcdn.com/34979/prd_3497853-HK-Vitals-Multivitamin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img4.hkrtcdn.com/34979/prd_3497803-HK-Vitals-Multivitamin-by-HealthKart-60-tablets-Unflavoured_o.jpg"
     ],
-    "short_description": "Supports healthy skin, hair, nails, and joints.",
-    "full_description": ["Collagen peptides provide essential proteins to improve skin elasticity, joint mobility, and overall vitality."],
-    "affiliate_link": "https://affiliate.example.com/product/collagen-peptides",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 4,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 3,
-        "comment": "Great product!"
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 3,
-        "comment": "Good value for the price."
-      }
+    "short_description": "Found this multivitamin with Zinc and Vitamin C to be a good value for the price. It's a good option for those who are looking for a complete vitamin solution.",
+    "full_description": [
+      "hk vitals multivitamin is thoughtfully crafted with over 30 essential nutrients to address the nutritional deficiencies in your diet. ",
+      "Whether you're tackling a busy workday or juggling multiple responsibilities, this multivitamin supports you through the daily hustle with increased energy levels, a robust immune system, improved bone and joint health, and better stamina.",
+      "<p><strong>Key Ingredients</strong> Taurine, Ginseng Extract, Iron, Zinc, Vitamins B & C</p>",
+      "<p><strong>Usage</strong> Take 1 tablet daily, at any time of the day, preferably after a meal for optimal absorption.</p>" 
     ],
-    "trending": true,
-    "tags": [
-      "collagen",
-      "skin health",
-      "joint health",
-      "protein"
-    ],
-    "related_products": [
-      "1",
-      "4",
-      "6",
-      "8",
-      "12",
-      "18",
-      "21",
-      "25",
-      "29",
-      "30"
-    ]
-  },
-  {
-    "id": "16",
-    "name": "Elderberry Syrup",
-    "price": 18.99,
-    "category": "herb",
-    "subcategory": "Immune Support",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "Natural immune support with elderberries.",
-    "full_description": ["Elderberry syrup helps strengthen the immune system and reduce cold and flu symptoms naturally."],
-    "affiliate_link": "https://affiliate.example.com/product/elderberry-syrup",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 4,
-        "comment": "Good value for the price."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 4,
-        "comment": "Good value for the price."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 5,
-        "comment": "Good value for the price."
-      },
-      {
-        "id": 4,
-        "user": "User4",
-        "rating": 3,
-        "comment": "Excellent quality, highly recommend."
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "elderberry",
-      "immune support",
-      "herbal",
-      "syrup"
-    ],
-    "related_products": [
-      "2",
-      "5",
-      "8",
-      "9",
-      "10",
-      "11",
-      "14",
-      "23",
-      "25",
-      "28"
-    ]
-  },
-  {
-    "id": "17",
-    "name": "Wheatgrass Powder",
-    "price": 15.99,
-    "category": "food",
-    "subcategory": "Superfoods",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "A nutrient-packed green powder.",
-    "full_description": ["Wheatgrass powder is loaded with vitamins, minerals, and chlorophyll to boost energy and detoxify the body."],
-    "affiliate_link": "https://affiliate.example.com/product/wheatgrass-powder",
+    "affiliate_link": "https://bitli.in/b24gp7d",
     "rating": 4.5,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Great product!"
+        "user": "Natasha Jalan",
+        "rating": 5,
+        "comment": "Superb product. I only trust HK Multivitamin now"
       },
       {
         "id": 2,
-        "user": "User2",
+        "user": "Ankur",
         "rating": 5,
-        "comment": "Excellent quality, highly recommend."
+        "comment": "Well if you want to buy it. It is good. But keep in the mind that if you are on a diet(balanced+ avoiding junk food etc..) then it will be very beneficial for You but if you aren't on diet(eating junk food, not exercise or not maintaining body) then it will not show any improvement somehow then I would like to say don't expect too much from it."
       },
       {
         "id": 3,
-        "user": "User3",
-        "rating": 4,
-        "comment": "Met my expectations, very satisfied."
-      },
-      {
-        "id": 4,
-        "user": "User4",
+        "user": "Monica Singh",
         "rating": 5,
-        "comment": "Great product!"
-      },
-      {
-        "id": 5,
-        "user": "User5",
-        "rating": 4,
-        "comment": "Great product!"
+        "comment": "Amazing product. I love it."
       }
     ],
     "trending": true,
     "tags": [
-      "wheatgrass",
-      "superfood",
-      "organic",
-      "detox"
+      "vitamins",
+      "multivitamin",
+      "zinc",
+      "vitamin c",
+      "vitamins for women",
+      "vitamins for men",
+      "vitamins for kids",
+      "vitamins for adults",
     ],
     "related_products": [
-      "1",
-      "3",
-      "5",
-      "7",
-      "9",
-      "10",
-      "11",
-      "13",
-      "19",
-      "20",
-      "22",
-      "23",
-      "24",
-      "26",
-      "27",
-      "29",
-      "30"
+      "16",
+      "17"
     ]
   },
   {
-    "id": "18",
-    "name": "Magnesium Glycinate",
-    "price": 21.99,
+    "id": "16",
+    "name": "HK Vitals Fish Oil 1000mg with 180mg EPA and 120mg DHA",
+    "price": 499.00,
+    "strike_price": 1000.00,
     "category": "supplement",
-    "subcategory": "Sleep & Relaxation",
+    "subcategory": "heart health",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://img8.hkrtcdn.com/35467/prd_3546607-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-90-capsules_o.jpg",
+      "https://img10.hkrtcdn.com/35466/prd_3546599-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-90-capsules_o.jpg",
+      "https://img8.hkrtcdn.com/35466/prd_3546597-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-90-capsules_o.jpg",
+      "https://img10.hkrtcdn.com/35467/prd_3546609-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-90-capsules_o.jpg",
+      "https://img2.hkrtcdn.com/35467/prd_3546641-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-90-capsules_o.jpg",
+      "https://img10.hkrtcdn.com/35466/prd_3546589-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-90-capsules_o.jpg",
+      "https://img8.hkrtcdn.com/35466/prd_3546587-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-90-capsules_o.jpg",
+      "https://img6.hkrtcdn.com/35467/prd_3546605-HK-Vitals-Fish-Oil-1000mg-with-180mg-EPA-and-120mg-DHA-90-capsules_o.jpg"
     ],
-    "short_description": "Promotes relaxation and better sleep.",
-    "full_description": ["This magnesium glycinate supplement supports relaxation, muscle recovery, and restful sleep."],
-    "affiliate_link": "https://affiliate.example.com/product/magnesium-glycinate",
-    "rating": 4.8,
+    "short_description": "Found this fish oil that helps in boosting the immune system and reducing the risk of heart disease. It's a good option for those who are looking for a complete heart health solution.",
+    "full_description": [
+      "Nurture your heart daily with hk vitals Fish Oil.Packed with essential Omega-3s, it helps reduce inflammation in the body, lower LDL cholesterol, manage triglyceride levels, and manage blood pressure. ",
+      "Omega-3 fatty acids are also crucial for good joint and muscle function, brain, and eye health, making it a super nutrient for overall well-being.",
+      "<p><strong>Usage</strong> Take 1 capsule daily, anytime of the day, preferably after a meal for optimal absorption and efficacy.</p>"
+    ],
+    "affiliate_link": "https://bitli.in/WDOFyzD",
+    "rating": 4.5,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
+        "user": "Riddhi Mittal",
         "rating": 5,
-        "comment": "Excellent quality, highly recommend."
+        "comment": "I can feel a difference and improvement in my eyesight ever since I started taking HK Fish Oil"
       },
       {
         "id": 2,
-        "user": "User2",
-        "rating": 4,
-        "comment": "Excellent quality, highly recommend."
+        "user": "Sanskriti Singhania",
+        "rating": 5,
+        "comment": "Everyone must really buy HK Fish Oil."
       },
       {
         "id": 3,
-        "user": "User3",
-        "rating": 3,
-        "comment": "Good value for the price."
+        "user": "Raghav",
+        "rating": 5,
+        "comment": "My fish oil delivery faced a minor issue and the customer care was so prompt. I am thankful."
+      },
+      {
+        "id": 4,
+        "user": "Anshuman Varma",
+        "rating": 5,
+        "comment": "Very happy that I bought HK Fish Oil. in 2 weeks there is already improvement. I am waiting to see more"
       }
     ],
     "trending": false,
     "tags": [
-      "magnesium",
-      "relaxation",
-      "sleep",
-      "muscle recovery"
+      "fish oil",
+      "heart health",
+      "immune support",
+      "vitamin",
+      "omega 3",
+      "supplement",
+      "vitamins for adults",
+      "vitamins for kids",
+      "vitamins for men",
+      "vitamins for women",
     ],
     "related_products": [
-      "1",
-      "4",
-      "6",
-      "8",
-      "12",
       "15",
-      "21",
-      "25"
+      "17"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "HK Vitals ACV Effervescent 750 mg",
+    "price": 399.00,
+    "strike_price": 1400.00,
+    "category": "supplement",
+    "subcategory": "weight loss",
+    "images": [
+      "https://img7.hkrtcdn.com/24448/prd_2444746-HK-Vitals-ACV-750-mg-Effervescent-by-HealthKart-60-tablets-Watermelon_o.jpg",
+      "https://img5.hkrtcdn.com/24448/prd_2444784-HK-Vitals-ACV-750-mg-Effervescent-by-HealthKart-60-tablets-Watermelon_o.jpg",
+      "https://img7.hkrtcdn.com/24448/prd_2444776-HK-Vitals-ACV-750-mg-Effervescent-by-HealthKart-60-tablets-Watermelon_o.jpg",
+      "https://img3.hkrtcdn.com/24448/prd_2444782-HK-Vitals-ACV-750-mg-Effervescent-by-HealthKart-60-tablets-Watermelon_o.jpg",
+      "https://img7.hkrtcdn.com/24448/prd_2444786-HK-Vitals-ACV-750-mg-Effervescent-by-HealthKart-60-tablets-Watermelon_o.jpg",
+      "https://img1.hkrtcdn.com/24448/prd_2444780-HK-Vitals-ACV-750-mg-Effervescent-by-HealthKart-60-tablets-Watermelon_o.jpg"
+    ],
+    "short_description": "Found this Apple Cider Vineger drink that helps in weight management and detoxification. It's a good option for those who are looking for a complete weight loss solution.",
+    "full_description": [
+      "HK Vitals Apple Cider Vinegar is India’s first 750mg ACV effervescent tablets.",
+      "These ACV effervescent tablets can help in providing all the benefits of traditional ACV liquid in a easy to consume format.",
+      "It  may also promotes healthy weight management by keeping you fuller for longer.",
+      "It’s natural acidic properties can help balance stomach acids - which reduce bloating and gas and improve our digestion.",
+      "It contains acetic acid which is known to increase activity of enzymes that improves our metabolism so our body burns calories faster.",
+      "<p><strong>Usage: </strong> We recommend taking 1 tablet everyday 30 minutes before lunch or dinner.Just DROP one tablet in 200ml cold water, let is FIZZ & DRINK your delicious health drink! Consume it for atleast 3 months regularly to see effective results!</p>"
+    ],
+    "affiliate_link": "https://bitli.in/r7zW5QS",
+    "rating": 4.3,
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Anchal gupta",
+        "rating": 5,
+        "comment": "product was amazing and totally unexpected as my expectations was. delivery was quite late but it's totally worth it,"
+      },
+      {
+        "id": 2,
+        "user": "Mitesh Abhivan",
+        "rating": 5,
+        "comment": "Awesome?"
+      },
+      {
+        "id": 3,
+        "user": "Rasal",
+        "rating": 4,
+        "comment": "give feel good"
+      },
+      {
+        "id": 4,
+        "user": "Naveen bishnoi",
+        "rating": 5,
+        "comment": "Very good"
+      }
+    ],
+    "trending": true,
+    "tags": [
+     "apple cider vinegar",
+     "acv",
+     "cider",
+     "cider vinegar",
+     "weight loss",
+     "weight management",
+     "fat loss",
+     "fat burning"
+    ],
+    "related_products": [
+     "15",
+     "16"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Gut Set Go | Boost Your Gut Health Daily With Best Probiotics supplement",
+    "price": 949.00,
+    "strike_price": 1198.00,
+    "category": "supplement",
+    "subcategory": "Probiotics",
+    "images": [
+      "https://www.sova.health/cdn/shop/files/Cover_2.png?v=1734025300",
+      "https://www.sova.health/cdn/shop/files/Benefits.png?v=1735751430",
+      "https://www.sova.health/cdn/shop/files/Ingredient_Highlight.png?v=1735751427",
+      "https://www.sova.health/cdn/shop/files/Ingredient_story_2.png?v=1735751430",
+      "https://www.sova.health/cdn/shop/files/90_Day_Journey.png?v=1735751429",
+      "https://www.sova.health/cdn/shop/files/Us_vs_Them.png?v=1735751429",
+      "https://www.sova.health/cdn/shop/files/How_to_use.png?v=1735751427"
+    ],
+    "short_description": "Found this Probiotics supplement that helps in boosting your gut health. It's a good option for those who are looking for a complete gut health solution.",
+    "full_description": [
+      "A targeted blend of prebiotic and probiotic strains missing in over 80% of Indians, delivering 15 billion CFU along with fibre and vitamin C. Clinically researched supplement is a cleaner alternative to preservative-laden beverages, promoting better digestion, immunity, better food breakdown, and maintaining gut balance. ",
+      "<p><strong>Boost Your Digestive Health</strong></p>",
+      "<p><strong>Goodbye to Acidity, Bloating & Indigestion</strong></p>",
+      "<p><strong>Restore Gut Balance</strong></p>",
+      "<p><strong>Strengthen Immunity</strong></p>",
+      "<p><strong>Improve Nutrient Absorption</strong></p>",
+      "<p><strong>Repair gut damage from antibiotics</strong></p>"
+    ],
+    "affiliate_link": "https://bitli.in/QOizdx9",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Kunal Nirmal",
+        "rating": 4,
+        "comment": "Didn't expect a probiotic to be tasty!"
+      },
+      {
+        "id": 2,
+        "user": "Khadija Sana",
+        "rating": 4,
+        "comment": "My husband had a weak gut and digestive issues.. all issues have vanished now"
+      },
+      {
+        "id": 3,
+        "user": "Meera Aggarwal",
+        "rating": 5,
+        "comment": "useful supplement for those who want to maintain gut health, immunity etc etc"
+      }
+    ],
+    "trending": true,
+    "tags": [
+      "probiotics",
+      "gut health",
+      "digestion",
+      "immunity",
+      "supplement",
+      "Gut",
+      "gut health"
+    ],
+    "related_products": [
+      "17",
+      "15",
+      "16"
     ]
   },
   {
