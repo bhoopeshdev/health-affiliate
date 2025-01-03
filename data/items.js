@@ -126,7 +126,7 @@ export const items = [
         "comment": "Bought it cause of the heavy discount, it's better than unflavored if you're on a budget (even that's debatable), because the taste is really artificial and unpalatable, I'm glad that I didn't take 2 jars, and would prioritised paying 300 to 700 more for a better tasting protein, if you're on a tight budget, it is for you...."
       }
     ],
-    "trending": true,
+    "trending": false,
     "tags": [
       "protein",
       "whey",
@@ -476,58 +476,59 @@ export const items = [
   },
   {
     "id": "9",
-    "name": "AyurJosh Shilajit Resin",
-    "price": 1295.00,
+    "name": "Kapiva Himalayan Shilajit Resin",
+    "price": 999.00,
     "category": "herb",
     "subcategory": "fitness",
     "images": [
-      "https://theayurvedaco.com/cdn/shop/files/724049782276-1_845e6407-a27d-47af-96ef-cdb489571ef2.jpg?v=1708703065&width=713",
-      "https://theayurvedaco.com/cdn/shop/files/724049782276-3.jpg?v=1708703065&width=713",
-      "https://theayurvedaco.com/cdn/shop/files/724049782276-4.jpg?v=1708703065&width=713",
-      "https://theayurvedaco.com/cdn/shop/files/724049782276-5.jpg?v=1708703065&width=713",
-      "https://theayurvedaco.com/cdn/shop/files/724049782276-7.jpg?v=1708703065&width=713",
-      "https://theayurvedaco.com/cdn/shop/files/724049782276-9.jpg?v=1708703065&width=713",
-      "https://theayurvedaco.com/cdn/shop/files/724049782276-10.jpg?v=1708703065&width=713"
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/attribute_rule_images/229_source_1726558319.jpg?w=800",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/467/8459/18000_FT__53872.1721362273.jpg?w=800",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/467/8460/Certificate__07388.1721362274.jpg?w=800",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/467/8464/Tests__00392.1721362273.jpg?w=600",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/467/9392/Himalayan_Shilajit_Resin_ORIGINAL__23539.1721362274.jpg?w=600",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/467/10609/ShilajitD2C_20g_1__67074.1735908818.jpg?w=600",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/467/8470/Image_13__83820.1715830087.jpg?w=600"
     ],
     "short_description": "After exploring numerous Shilajit products in the market, I’ve carefully selected this one as a top choice for quality and affordability. Backed by outstanding reviews and trusted by many",
     "full_description": [
-      "Mineral-Rich Vitality Pure Himalayan Shilajit: A Treasure of Minerals & Fulvic Acid.",
-      "Elevated Wellness Boost Your Energy & Clarity Naturally with Shilajit.",
-      "Detox & Absorption Enhance Detoxification & Nutrient Uptake with Shilajit.",
-      "Adaptogenic Strength Shilajit: Strengthen Your Stress Resilience Naturally."
+      "It's sourced from the Great Himalayan Ranges, 16,000 – 18,000 feet above sea level. After being sourced in a short harvesting period from these extreme high altitude, it is then traditionally purified using the ancient Shodhana technique which produces pure resin, using only Triphala in natural spring water and the sun. ",
+      "Kapiva Himalayan Shilajit is the only Shilajit resin in the market which comes with an exclusive NABL lab test report with every purchase. It is GMP certified and contains 80+ trace minerals like Potassium, Calcium, Iron, Silica & more.",
+      "<p><strong>Boosts Immunity</strong> With the presence of fulvic acid and 80+ minerals to improve your immunity, memory & energy</p>",
+      "<p><strong>Improves Energy Levels</strong> With high fulvic acid content, that helps overcome lethargy, tiredness and chronic fatigue</p>",
+      "<p><strong>Increases Strength and Stamina</strong> Due to the high mineral content, shilajit helps in improving oxygen delivery to tissues that delay fatigue during strenuous physical activities</p>"
     ],
-    "affiliate_link": "https://bitli.in/UmtimCk",
-    "rating": 4.96,
+    "affiliate_link": "https://bitli.in/dutfpq9",
+    "rating": 4.54,
     "reviews": [
       {
         "id": 1,
-        "user": "shashikant Shukla",
-        "rating": 5,
-        "comment": "Above 55 age must use it for better health"
+        "user": "Laxman Singh",
+        "rating": 4,
+        "comment": "Good results"
       },
       {
         "id": 2,
-        "user": "Vijender Seta",
+        "user": "Parmanand Dehari",
         "rating": 5,
-        "comment": "Great for both men and women. seems to be good quality"
+        "comment": "Felling energetic"
       },
       {
         "id": 3,
-        "user": "Jitendra Singh",
+        "user": "Akshay Satyawan Jadhav",
         "rating": 5,
-        "comment": "Very nice product."
+        "comment": "Good & Healthy product"
       },
       {
         "id": 4,
-        "user": "Sh.Vipin Sahjadi",
-        "rating": 5,
-        "comment": "Relax my body and brain. After having corona I use to have pain in my whole body and second thing I was facing issue with Tiredness from small physical work but after using it I m feeling better."
+        "user": "Avijit Dutta",
+        "rating": 3,
+        "comment": "Good. But I think it should be continued for one year"
       },
       {
         "id": 5,
-        "user": "Jayda Khanak",
-        "rating": 5,
-        "comment": "Can't say much about other effects than stamina because those are only visible after a prolonged use of 3_4 months, But its a good product."
+        "user": "CHETAN SAINI{MALI}",
+        "rating": 3,
+        "comment": "Okay propromanese"
       }
     ],
     "trending": true,
@@ -537,8 +538,9 @@ export const items = [
       "resin",
       "vitality",
       "men health",
-      "AyurJosh",
-      "AyurJosh Shilajit Resin"
+      "kapiva",
+      "kapiva shilajit",
+      "himalayan shilajit"
     ],
     "related_products": [
       "7",
@@ -667,62 +669,62 @@ export const items = [
     ]
   },
   {
-    "id": "12",
-    "name": "California Salted Almonds",
-    "price": 340,
-    "category": "food",
-    "subcategory": "snacks",
+    "id": "20",
+    "name": "Kapiva Dia Free Juice - Blood Sugar Management",
+    "price": 1099.00,
+    "strike_price": 1198.00,
+    "category": "herb",
+    "subcategory": "diabetic",
     "images": [
-      "https://krishival.com/cdn/shop/files/AlmondSalted.png?v=1694596191&width=900",
-      "https://krishival.com/cdn/shop/files/20267_1_3d751979-169d-4de9-a995-8caa00b87d0e.jpg?v=1700222734&width=900",
-      "https://krishival.com/cdn/shop/files/Krishival-Almonds-100g.png?v=1700222734&width=900"
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/10388/E1__37188.1732597365.jpg?w=800",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/9672/11_herbs__04989.1732357017.jpg?w=800",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/9047/1_1__99279.1732357017.jpg?w=600",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/9388/DIA_FREE_ORIGINAL__65895.1715940102.jpg?w=600",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/10170/Dia_Free_ECOM_1__21260.1732357017.jpg?w=600",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/10157/Untitled-2__72709.1732357017.jpg?w=600",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/5747/Dia_Free_7__62007.1732597363.jpg?w=600"
     ],
-    "short_description": "Discover Krishival's California Salted Almonds, the perfect snack for anyone who loves tasty and healthy treats! These premium, large-sized nuts are ethically sourced from farmers in California and Goa, ensuring you enjoy a delightful experience with every bite. Packed in convenient ziplock bags, they stay fresh longer, making them an excellent choice for guilt-free snacking. With a satisfying crunch and high protein content, these almonds are not just delicious but also good for you!",
+    "short_description": "Kapiva Dia Free Juice is a natural blood sugar management supplement that helps you manage blood sugar levels naturally.",
     "full_description": [
-      "<p><strong>Ethically Sourced</strong>Krishival cares about the farmers and the environment.</p>",
-      "<p><strong>High in Protein</strongGreat for energy and staying full.</p>",
-      "<p><strong>Lip Smacking Flavor</strong> A taste that you will crave!</p>",
-      "<p><strong>Convenient Packaging</strong>Ziplock bags keep them fresh and crunchy.</p>",
-      "California Salted Almonds stand out because they combine taste and health benefits. Unlike other snacks that may be filled with empty calories, these almonds offer real nutrition. They're perfect for school, sports, or just hanging out with friends. Enjoy a snack that nourishes your body while satisfying your taste buds!"
+      "If you are looking for a NATURAL solution to Manage Blood Sugar, Dia Free Juice should be the choice. ",
+      "It is a blend of 11 AYURVEDIC herbs selected for their ability to regulate blood glucose and support healthy blood-sugar levels. Our ingredients come from the finest sources and curated by expert-researchers to ensure highest quality and efficacy. These 11 herbs together are more powerful than Karela, Jamun, or Amla Juice and other Ayurvedic Medicines for Blood Sugar Management.",
+      "This Ayurvedic Blood Sugar Medicine is a perfect addition to your sugar-control diet and can be used alongside regular Blood Sugar medicines to support Blood-sugar control efforts."
     ],
-    "affiliate_link": "https://bitli.in/eoH1V0H",
+    "affiliate_link": "https://bitli.in/v58ljKD",
     "rating": 4.5,
     "reviews": [
       {
         "id": 1,
-        "user": "Siddharth Agarwal",
-        "rating": 4,
-        "comment": "These almonds are packed with flavor and crunch. Love them!"
+        "user": "BASKARAN.R BASKARAN.R",
+        "rating": 5,
+        "comment": "diabetics management Good. I have to wait and see whether I can make good control of Blood Sugar.So far I think I am managing sugar control within normal range."
       },
       {
         "id": 2,
-        "user": "Ashish Dey",
+        "user": "Returi Srinivasa Rao",
         "rating": 5,
-        "comment": "Great snack choice! Fresh, salty, and crunchy."
+        "comment": "It's working Sir"
       },
       {
         "id": 3,
-        "user": "Jatin Soni",
-        "rating": 4,
-        "comment": "Just the right amount of salt. I eat these all the time."
-      },
-      {
-        "id": 4,
-        "user": "Rohan Bhat",
+        "user": "Ramesh dattaram chalke",
         "rating": 5,
-        "comment": "Great snack to have around the house. Super fresh!"
+        "comment": "BLOOD SUGAR CONSTANTLY DECREASE"
       }
     ],
     "trending": true,
     "tags": [
-      "probiotics",
-      "gut health",
-      "digestion",
-      "capsules"
+      "herb",
+      "diabetic",
+      "blood sugar",
+      "Dia Free Juice",
+      "Dia",
+      "Blood Sugar management"
     ],
     "related_products": [
-      "10",
-      "11"
+      "7",
+      "8",
+      "15"
     ]
   },
   {
@@ -893,7 +895,8 @@ export const items = [
     ],
     "related_products": [
       "16",
-      "17"
+      "17",
+      "19"
     ]
   },
   {
@@ -962,7 +965,8 @@ export const items = [
     ],
     "related_products": [
       "15",
-      "17"
+      "17",
+      "19"
     ]
   },
   {
@@ -1030,7 +1034,8 @@ export const items = [
     ],
     "related_products": [
      "15",
-     "16"
+     "16",
+     "19"
     ]
   },
   {
@@ -1099,685 +1104,123 @@ export const items = [
   },
   {
     "id": "19",
-    "name": "Organic Coconut Oil",
-    "price": 12.99,
-    "category": "food",
-    "subcategory": "Oils",
+    "name": "HK Vitals Biotin",
+    "price": 359.00,
+    "strike_price": 499.00,
+    "category": "supplement",
+    "subcategory": "vitamins",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://img6.hkrtcdn.com/35045/prd_3504425-HK-Vitals-Biotin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img4.hkrtcdn.com/35045/prd_3504433-HK-Vitals-Biotin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img2.hkrtcdn.com/35045/prd_3504421-HK-Vitals-Biotin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img8.hkrtcdn.com/35045/prd_3504437-HK-Vitals-Biotin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img6.hkrtcdn.com/35045/prd_3504435-HK-Vitals-Biotin-by-HealthKart-60-tablets-Unflavoured_o.jpg",
+      "https://img10.hkrtcdn.com/35045/prd_3504429-HK-Vitals-Biotin-by-HealthKart-60-tablets-Unflavoured_o.jpg"
     ],
-    "short_description": "A versatile oil for cooking and skincare.",
-    "full_description": ["This organic coconut oil is cold-pressed and unrefined, making it ideal for both culinary and beauty applications."],
-    "affiliate_link": "https://affiliate.example.com/product/coconut-oil",
-    "rating": 4.7,
+    "short_description": "Found this Biotin that helps in boosting your immune system. It's a good option for those who are looking for a complete immune system solution.",
+    "full_description": [
+      "hk vitals Biotin, a 100% Ayurvedic supplement that gives you naturally sourced Biotin to nourish and strengthen your hair from within.",
+      "It helps reduce hairfall and strengthen your strands from the root.",
+      "It aids the natural production of keratin in your hair- a vital protein that makes up 90% of your hair’s structure.",
+      "<p><strong>Usage</strong> Take 2 tablets daily, anytime of the day, preferably after a meal for optimal absorption and efficacy.</p>"
+    ],
+    "affiliate_link": "https://bitli.in/y7du5ck",
+    "rating": 4.2,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
+        "user": "Blake",
         "rating": 5,
-        "comment": "Met my expectations, very satisfied."
+        "comment": "How to take it? Q 1 after meal and is docs prescription needed for it?"
       },
       {
         "id": 2,
-        "user": "User2",
-        "rating": 4,
-        "comment": "Really helpful and works as described."
+        "user": "Mihika Kapoor",
+        "rating": 5,
+        "comment": "my hair was growing very slowly but after hk plant based Biotin my hair is thicker and shinier. Please do try"
+      },
+      {
+        "id": 3,
+        "user": "Poornima murthy",
+        "rating": 5,
+        "comment": "I'm using this product from last five months it's very useful all my pigmentation has been reduced now ther is no hair fall also very good product"
       }
     ],
     "trending": true,
     "tags": [
-      "coconut oil",
-      "organic",
-      "cooking",
-      "skincare"
+      "biotin",
+      "biotin tablets",
+      "biotin supplement",
+      "hair",
+      "hair fall",
+      "hair loss",
+      "hair growth",
+      "hair thinning",
+      "hair loss"
     ],
     "related_products": [
-      "1",
-      "3",
-      "5",
-      "7",
-      "11",
-      "13",
-      "17",
-      "20",
-      "22",
-      "24",
-      "26",
-      "27",
-      "29",
-      "30"
+      "15",
+      "16",
+      "17"
     ]
   },
   {
     "id": "20",
-    "name": "Beetroot Powder",
-    "price": 14.99,
+    "name": "California Salted Almonds",
+    "price": 340,
     "category": "food",
-    "subcategory": "Superfoods",
+    "subcategory": "snacks",
     "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
+      "https://krishival.com/cdn/shop/files/AlmondSalted.png?v=1694596191&width=900",
+      "https://krishival.com/cdn/shop/files/20267_1_3d751979-169d-4de9-a995-8caa00b87d0e.jpg?v=1700222734&width=900",
+      "https://krishival.com/cdn/shop/files/Krishival-Almonds-100g.png?v=1700222734&width=900"
     ],
-    "short_description": "Supports stamina and cardiovascular health.",
-    "full_description": ["Beetroot powder enhances athletic performance and promotes heart health with natural nitrates."],
-    "affiliate_link": "https://affiliate.example.com/product/beetroot-powder",
-    "rating": 4.6,
+    "short_description": "Discover Krishival's California Salted Almonds, the perfect snack for anyone who loves tasty and healthy treats! These premium, large-sized nuts are ethically sourced from farmers in California and Goa, ensuring you enjoy a delightful experience with every bite. Packed in convenient ziplock bags, they stay fresh longer, making them an excellent choice for guilt-free snacking. With a satisfying crunch and high protein content, these almonds are not just delicious but also good for you!",
+    "full_description": [
+      "<p><strong>Ethically Sourced</strong>Krishival cares about the farmers and the environment.</p>",
+      "<p><strong>High in Protein</strongGreat for energy and staying full.</p>",
+      "<p><strong>Lip Smacking Flavor</strong> A taste that you will crave!</p>",
+      "<p><strong>Convenient Packaging</strong>Ziplock bags keep them fresh and crunchy.</p>",
+      "California Salted Almonds stand out because they combine taste and health benefits. Unlike other snacks that may be filled with empty calories, these almonds offer real nutrition. They're perfect for school, sports, or just hanging out with friends. Enjoy a snack that nourishes your body while satisfying your taste buds!"
+    ],
+    "affiliate_link": "https://bitli.in/eoH1V0H",
+    "rating": 4.5,
     "reviews": [
       {
         "id": 1,
-        "user": "User1",
+        "user": "Siddharth Agarwal",
         "rating": 4,
-        "comment": "Great product!"
+        "comment": "These almonds are packed with flavor and crunch. Love them!"
       },
       {
         "id": 2,
-        "user": "User2",
+        "user": "Ashish Dey",
         "rating": 5,
-        "comment": "Great product!"
+        "comment": "Great snack choice! Fresh, salty, and crunchy."
       },
       {
         "id": 3,
-        "user": "User3",
-        "rating": 3,
-        "comment": "Excellent quality, highly recommend."
+        "user": "Jatin Soni",
+        "rating": 4,
+        "comment": "Just the right amount of salt. I eat these all the time."
       },
       {
         "id": 4,
-        "user": "User4",
-        "rating": 4,
-        "comment": "Great product!"
+        "user": "Rohan Bhat",
+        "rating": 5,
+        "comment": "Great snack to have around the house. Super fresh!"
       }
     ],
     "trending": true,
     "tags": [
-      "beetroot",
-      "superfood",
-      "stamina",
-      "heart health"
+      "probiotics",
+      "gut health",
+      "digestion",
+      "capsules"
     ],
     "related_products": [
-      "3",
-      "5",
-      "6",
-      "7",
-      "9",
-      "11",
-      "13",
-      "17",
-      "19",
-      "22",
-      "24",
-      "26",
-      "27",
-      "29",
-      "30"
-    ]
-  },
-  {
-    "id": "21",
-    "name": "Plant-Based Protein Powder",
-    "price": 29.99,
-    "category": "supplement",
-    "subcategory": "Fitness",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "A vegan protein source for active lifestyles.",
-    "full_description": ["This plant-based protein powder is rich in essential amino acids to fuel workouts and recovery."],
-    "affiliate_link": "https://affiliate.example.com/product/plant-protein-powder",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Met my expectations, very satisfied."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 5,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 5,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 4,
-        "user": "User4",
-        "rating": 5,
-        "comment": "Good value for the price."
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "protein",
-      "plant-based",
-      "fitness",
-      "vegan"
-    ],
-    "related_products": [
-      "1",
-      "4",
-      "6",
-      "8",
-      "12",
-      "15",
-      "18",
-      "25",
-      "29"
-    ]
-  },
-  {
-    "id": "22",
-    "name": "Organic Flaxseed Meal",
-    "price": 10.99,
-    "category": "food",
-    "subcategory": "Seeds",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "Rich in omega-3 and fiber.",
-    "full_description": ["This organic flaxseed meal supports digestive health and provides a plant-based source of omega-3."],
-    "affiliate_link": "https://affiliate.example.com/product/flaxseed-meal",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 5,
-        "comment": "Met my expectations, very satisfied."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 5,
-        "comment": "Good value for the price."
-      }
-    ],
-    "trending": false,
-    "tags": [
-      "flaxseed",
-      "fiber",
-      "omega-3",
-      "organic"
-    ],
-    "related_products": [
-      "1",
-      "3",
-      "5",
-      "6",
-      "7",
-      "11",
-      "13",
-      "17",
-      "19",
-      "20",
-      "24",
-      "26",
-      "27",
-      "29",
-      "30"
-    ]
-  },
-  {
-    "id": "23",
-    "name": "Milk Thistle Capsules",
-    "price": 19.99,
-    "category": "herb",
-    "subcategory": "Liver Health",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "Supports liver detox and health.",
-    "full_description": ["Milk thistle is a powerful herb known for promoting liver detoxification and protection."],
-    "affiliate_link": "https://affiliate.example.com/product/milk-thistle",
-    "rating": 4.6,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 5,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 4,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 3,
-        "comment": "Met my expectations, very satisfied."
-      },
-      {
-        "id": 4,
-        "user": "User4",
-        "rating": 4,
-        "comment": "Excellent quality, highly recommend."
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "milk thistle",
-      "liver health",
-      "detox",
-      "herbal"
-    ],
-    "related_products": [
-      "2",
-      "5",
-      "9",
       "10",
-      "14",
-      "16",
-      "17",
-      "28"
-    ]
-  },
-  {
-    "id": "24",
-    "name": "Organic Quinoa",
-    "price": 13.99,
-    "category": "food",
-    "subcategory": "Grains",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "A nutritious whole grain alternative.",
-    "full_description": ["This organic quinoa is a versatile, gluten-free grain rich in protein and fiber."],
-    "affiliate_link": "https://affiliate.example.com/product/organic-quinoa",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 3,
-        "comment": "Great product!"
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 5,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 4,
-        "user": "User4",
-        "rating": 5,
-        "comment": "Good value for the price."
-      }
-    ],
-    "trending": false,
-    "tags": [
-      "quinoa",
-      "grain",
-      "gluten-free",
-      "organic"
-    ],
-    "related_products": [
-      "1",
-      "3",
-      "5",
-      "7",
-      "11",
-      "13",
-      "17",
-      "19",
-      "20",
-      "22",
-      "26",
-      "27",
-      "29",
-      "30"
-    ]
-  },
-  {
-    "id": "25",
-    "name": "Vitamin D3 Drops",
-    "price": 17.99,
-    "category": "supplement",
-    "subcategory": "Bone Health",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "Supports bone and immune health.",
-    "full_description": ["Vitamin D3 drops provide a potent dose of vitamin D to support strong bones and a healthy immune system."],
-    "affiliate_link": "https://affiliate.example.com/product/vitamin-d3-drops",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 5,
-        "comment": "Good value for the price."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 3,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 3,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 4,
-        "user": "User4",
-        "rating": 3,
-        "comment": "Good value for the price."
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "vitamin D3",
-      "bone health",
-      "immune support",
-      "drops"
-    ],
-    "related_products": [
-      "1",
-      "4",
-      "6",
-      "8",
-      "11",
-      "12",
-      "15",
-      "16",
-      "18",
-      "21"
-    ]
-  },
-  {
-    "id": "26",
-    "name": "Organic Cacao Powder",
-    "price": 14.99,
-    "category": "food",
-    "subcategory": "Superfoods",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "A rich source of antioxidants and magnesium.",
-    "full_description": ["This organic cacao powder is perfect for making smoothies, baked goods, or hot cocoa."],
-    "affiliate_link": "https://affiliate.example.com/product/cacao-powder",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Good value for the price."
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "cacao",
-      "superfood",
-      "antioxidants",
-      "organic"
-    ],
-    "related_products": [
-      "1",
-      "3",
-      "5",
-      "7",
-      "9",
-      "11",
-      "13",
-      "17",
-      "19",
-      "20",
-      "22",
-      "24",
-      "27",
-      "29",
-      "30"
-    ]
-  },
-  {
-    "id": "27",
-    "name": "Organic Honey",
-    "price": 16.99,
-    "category": "food",
-    "subcategory": "Sweeteners",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "Raw and unfiltered honey.",
-    "full_description": ["This organic honey is sustainably sourced and offers a natural sweetener packed with nutrients."],
-    "affiliate_link": "https://affiliate.example.com/product/organic-honey",
-    "rating": 4.9,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 3,
-        "comment": "Great product!"
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 4,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 5,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 4,
-        "user": "User4",
-        "rating": 5,
-        "comment": "Met my expectations, very satisfied."
-      },
-      {
-        "id": 5,
-        "user": "User5",
-        "rating": 5,
-        "comment": "Really helpful and works as described."
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "honey",
-      "organic",
-      "sweetener",
-      "raw"
-    ],
-    "related_products": [
-      "1",
-      "3",
-      "5",
-      "7",
-      "11",
-      "13",
-      "17",
-      "19",
-      "20",
-      "22",
-      "24",
-      "26",
-      "29",
-      "30"
-    ]
-  },
-  {
-    "id": "28",
-    "name": "Herbal Energy Boost",
-    "price": 23.99,
-    "category": "herb",
-    "subcategory": "Energy",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "Enhances natural energy levels.",
-    "full_description": ["This herbal energy blend combines adaptogens and antioxidants to fight fatigue and improve focus."],
-    "affiliate_link": "https://affiliate.example.com/product/herbal-energy-boost",
-    "rating": 4.6,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 4,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 3,
-        "comment": "Met my expectations, very satisfied."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 5,
-        "comment": "Great product!"
-      }
-    ],
-    "trending": false,
-    "tags": [
-      "energy",
-      "adaptogen",
-      "herbal",
-      "focus"
-    ],
-    "related_products": [
-      "2",
-      "5",
-      "7",
-      "9",
-      "10",
-      "14",
-      "16",
-      "23"
-    ]
-  },
-  {
-    "id": "29",
-    "name": "Organic Hemp Hearts",
-    "price": 17.99,
-    "category": "food",
-    "subcategory": "Seeds",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "A rich source of protein and omega-3.",
-    "full_description": ["These organic hemp hearts are perfect for salads, smoothies, and snacks, offering a nutrient-dense addition to your meals."],
-    "affiliate_link": "https://affiliate.example.com/product/hemp-hearts",
-    "rating": 4.8,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 4,
-        "comment": "Excellent quality, highly recommend."
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 5,
-        "comment": "Really helpful and works as described."
-      },
-      {
-        "id": 3,
-        "user": "User3",
-        "rating": 4,
-        "comment": "Great product!"
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "hemp hearts",
-      "protein",
-      "omega-3",
-      "organic"
-    ],
-    "related_products": [
-      "1",
-      "3",
-      "5",
-      "6",
-      "7",
-      "11",
-      "13",
-      "15",
-      "17",
-      "19",
-      "20",
-      "21",
-      "22",
-      "24",
-      "26",
-      "27",
-      "30"
-    ]
-  },
-  {
-    "id": "30",
-    "name": "Organic Bone Broth Powder",
-    "price": 24.99,
-    "category": "food",
-    "subcategory": "Broths",
-    "images": [
-      "/placeholder.svg","/placeholder.svg","/placeholder.svg"
-    ],
-    "short_description": "Supports gut and joint health.",
-    "full_description": ["This organic bone broth powder is rich in collagen and nutrients, ideal for soups, stews, or as a daily supplement."],
-    "affiliate_link": "https://affiliate.example.com/product/bone-broth-powder",
-    "rating": 4.7,
-    "reviews": [
-      {
-        "id": 1,
-        "user": "User1",
-        "rating": 5,
-        "comment": "Great product!"
-      },
-      {
-        "id": 2,
-        "user": "User2",
-        "rating": 3,
-        "comment": "Excellent quality, highly recommend."
-      }
-    ],
-    "trending": true,
-    "tags": [
-      "bone broth",
-      "collagen",
-      "organic",
-      "gut health"
-    ],
-    "related_products": [
-      "1",
-      "3",
-      "5",
-      "7",
-      "11",
-      "12",
-      "13",
-      "15",
-      "17",
-      "19",
-      "20",
-      "22",
-      "24",
-      "26",
-      "27",
-      "29"
+      "11"
     ]
   }
 ];

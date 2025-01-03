@@ -21,7 +21,8 @@ const nextConfig: NextConfig = {
       "img8.hkrtcdn.com",
       "img9.hkrtcdn.com",
       "img10.hkrtcdn.com",
-      "www.sova.health"
+      "www.sova.health",
+      "kapiva-cdn.gumlet.io"
     ], // Add other domains as needed
   },
 };
