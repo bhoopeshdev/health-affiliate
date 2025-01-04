@@ -38,7 +38,7 @@ export function ProductGrid({ title, products }: ProductGridProps) {
     <section id="product-grid" className="py-4">
       <div className="container mx-auto px-4">
         <div className="flex flex-row justify-flex-start items-center gap-8">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">{title}</h2>
+          <h2 className="text-xl font-bold text-gray-800 mb-6">{title}</h2>
 
           {/* Centered Scroll Buttons */}
           <div className="flex justify-center items-center mb-4 gap-4">

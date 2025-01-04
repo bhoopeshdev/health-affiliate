@@ -1222,5 +1222,124 @@ export const items = [
       "10",
       "11"
     ]
+  },
+  {
+    "id": "21",
+    "name": "Zandu Nityam Ayurvedic Tablets for Quick Constipation Relief",
+    "price": 422.00,
+    "strike_price": 480.00,
+    "category": "herb",
+    "subcategory": "digestion",
+    "images": [
+      "https://zanducare.com/cdn/shop/files/NityamVati_2e678141-2a1b-4ca4-bf71-9b0cde441a9b.jpg?v=1682676188&width=1000",
+      "https://zanducare.com/cdn/shop/files/nityamsmall.png?v=1696311851&width=1000",
+      "https://zanducare.com/cdn/shop/files/Nityambig.png?v=1696311851&width=1000",
+      "https://zanducare.com/cdn/shop/products/nityam-vati_01.jpg?v=1696311851&width=1000",
+      "https://zanducare.com/cdn/shop/products/nityam-vati_04.jpg?v=1696311851&width=1000",
+      "https://zanducare.com/cdn/shop/products/nityam-vati_03.jpg?v=1696311851&width=1000",
+      "https://zanducare.com/cdn/shop/products/nityam-vati_02.jpg?v=1696311851&width=1000",
+    ],
+    "short_description": "Zandu Nityam Ayurvedic Tablets for Quick Constipation Relief helps to manage constipation by stimulating the digestive system and promoting bowel movement. | Natural and Vegetarian | No Artificial Colors or Flavours",
+    "full_description": [
+      "Get overnight relief from constipation and its cramps with Zandu Nityam Vati Constipation tablets. This Ayurvedic laxative is enriched with the goodness of 7 natural ingredients.",
+      "Zandu Nityam is crafted with time-tested Ayurvedic ingredients like Senna, Haritaki, Triphala, and Castor Oil. These tablets provide gentle relief from occasional constipation and can also help treat gas, acidity, and bloating. Unlike other laxatives, Nityam Vati is non-habit forming.",
+      "Manufactured with utmost quality and adhering to rigorous standards, Zandu Nityam Tablets promote regular bowel movements, leaving you feeling light and rejuvenated. Developed by experienced Ayurvedic experts at ZAARC (Zandu Advanced Ayurvedic Research Centre), it carries Zandu's 100-year trust and legacy.",
+      "Now say goodbye to constipation by consuming 1-2 tablets of Zandu Nityam Vati constipation tablets before going to bed."
+    ],
+    "affiliate_link": "https://bitlii.com/d4TAd0gjQu",
+    "rating": 4.8,
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Rajendra",
+        "rating": 5,
+        "comment": "This is really a good product, I am taking this pill daily since last 1 year and good results for constipation. I want to know weather can it be taken for longer duration."
+      },
+      {
+        "id": 2,
+        "user": "Ganesh S.",
+        "rating": 5,
+        "comment": "No doubt excellent 👍"
+      },
+      {
+        "id": 3,
+        "user": "Holihosur S.",
+        "rating": 4,
+        "comment": "Good Medicine for Constitution, Gas and acidity. Using for last two yrs. For piles and fissher v. good relief. Tq. "
+      }
+    ],
+    "trending": true,
+    "tags": [
+      "digestion",
+      "constipation",
+      "gut health",
+      "constipation relief",
+      "bowel movement",
+      "gas",
+      "acidity",
+      "bloating",
+      "cramps",
+      "abdominal pain"
+    ],
+    "related_products": [
+      "7","8","9","20"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Zandu Pure Ashwagandha Capsules | Scientifically Proven for 2x Boosted Immunity & Stress Relief (60 Caps)",
+    "price": 187.00,
+    "strike_price": 250.00,
+    "category": "herb",
+    "subcategory": "immunity",
+    "images": [
+      "https://zanducare.com/cdn/shop/products/Zandu_Single_Herbs_Ashwagandha-Front_fa620c36-963b-4ad4-9beb-33c3698a05f5.jpg?v=1690806158&width=1000",
+      "https://zanducare.com/cdn/shop/products/Ashwagandha-Story-ad_01.jpg?v=1690806158&width=1000",
+      "https://zanducare.com/cdn/shop/products/Ashwagandha-Story-ad_02.jpg?v=1690806158&width=1000",
+      "https://zanducare.com/cdn/shop/products/Ashwagandha-Story-ad_03.jpg?v=1690806158&width=1000",
+      "https://zanducare.com/cdn/shop/products/Zandu_Single_Herbs_Ashwagandha-Side-A_33ac8349-4b69-4904-b1d0-c7d98d15fd23.jpg?v=1689750223&width=1000"
+    ],
+    "short_description": "Found this best deal for you for Ashwagandha capsules from Zandu Care. | Natural and Vegetarian | No Artificial Colors or Flavours",
+    "full_description": [
+      "Introducing 100% Pure Zandu Ashwagandha Capsules, an Ayurvedic solution designed to relieve stress, improve cognitive function, and enhance sleep, while also boosting energy and immunity.",
+      "These capsules contain the highest quality Ashwagandha extract, a well-known adaptogen herb that helps reduce cortisol levels, the hormone responsible for stress, thereby promoting relaxation and reducing anxiety symptoms.",
+      "Additionally, they possess neuroprotective properties that help improve memory, cognitive abilities, and focus.",
+      "Developed by Ayurvedic experts at the ZAARC (Zandu Advanced Ayurvedic Research Center), these capsules are backed by Zandu's 100+ years of legacy in the field of Ayurveda.",
+      "Zandu Ashwagandha Capsules offer a safe and convenient way to experience the natural benefits of Ashwagandha, ensuring the correct dosage with every intake."
+    ],
+    "affiliate_link": "https://bitlii.com/jOsgjmlIv6",
+    "rating": 4.7,
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Raj K.",
+        "rating": 5,
+        "comment": "Very nice good 👍👍👍"
+      },
+      {
+        "id": 2,
+        "user": "Rabishankar N.",
+        "rating": 5,
+        "comment": "It is a very good product for develop and maintain the immunity system, also it help to reduce the stress lavel. Nice packaging of medicine. Recommended highly this product to working professionals. Thank you Zandu❤️💐💐❤️"
+      },
+      {
+        "id": 3,
+        "user": "Rajendran",
+        "rating": 5, 
+        "comment": "Very good product it gives excellent immunity to everyone "
+      }
+    ],
+    "trending": false,
+    "tags": [
+      "ashwagandha",
+      "immunity",
+      "stress relief",
+      "zandu",
+      "ayurveda",
+      "ashwagandha capsules"
+    ],
+    "related_products": [
+      "21","7","8","9","20"
+    ]
   }
 ];
