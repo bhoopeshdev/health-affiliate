@@ -736,11 +736,10 @@ export const items = [
     "subcategory": "drinks",
     "images": [
       "https://bluetea.co.in/cdn/shop/files/BELLYFAT_7a99c0c0-f7b2-4509-9ebc-b30e2768277f.png?v=1720088353",
-      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags",
-      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags",
-      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags",
-      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags",
-      "https://bluetea.co.in/collections/bestseller/products/belly-fat-herbal-tea-60-tea-bags"
+      "https://bluetea.co.in/cdn/shop/files/bellyfat.jpg?v=1734084184",
+      "https://bluetea.co.in/cdn/shop/files/Helps_you_get_in_shape.jpg?v=1734084184",
+      "https://bluetea.co.in/cdn/shop/files/WhatsApp_Image_2024-06-18_at_6.14.48_PM_94e2071c-512a-45f4-a767-1234c597407b.jpg?v=1734084368",
+      "https://bluetea.co.in/cdn/shop/files/BELLYFAT_-_BACK.png?v=1734084107"
 
     ],
     "short_description": "Belly Fat Herbal Infusion helps in overall weight management. A potent infusion of herbal goodness crafted to target stubborn belly fat.",
