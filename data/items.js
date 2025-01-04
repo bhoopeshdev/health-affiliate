@@ -729,7 +729,7 @@ export const items = [
   },
   {
     "id": "13",
-    "name": "Belly Fat Herbal Infusion - 60 Tea Bags",
+    "name": "Blue Tea Belly Fat Herbal Infusion - 60 Tea Bags",
     "price": 749.00,
     "strike_price": 899.00,
     "category": "herb",
@@ -1039,7 +1039,7 @@ export const items = [
   },
   {
     "id": "18",
-    "name": "Gut Set Go | Boost Your Gut Health Daily With Best Probiotics supplement",
+    "name": "Sova - Gut Set Go | Boost Your Gut Health Daily With Best Probiotics supplement",
     "price": 949.00,
     "strike_price": 1198.00,
     "category": "supplement",

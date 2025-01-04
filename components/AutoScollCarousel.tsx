@@ -11,17 +11,17 @@ interface Banner {
 
 const banners: Banner[] = [
   {
-    image: "/images/banner1.jpg",
-    link: "/link1",
+    image: "/banner/banner1.jpg",
+    link: "/product/20",
   },
   {
-    image: "/images/banner2.jpg",
-    link: "/link2",
+    image: "/banner/banner2.jpg",
+    link: "/product/13",
   },
   {
-    image: "/images/banner3.jpg",
-    link: "/link3",
-  },
+    image: "/banner/banner3.jpg",
+    link: "/product/18",
+  }
 ];
 
 const AutoScrollCarousel: React.FC = () => {
@@ -46,11 +46,11 @@ const AutoScrollCarousel: React.FC = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden my-4 flex flex-row justify-center">
       {/* Carousel */}
       <div
         ref={carouselRef}
-        className="flex transition-transform overflow-hidden"
+        className="flex transition-transform overflow-hidden px-4 gap-4 lg:mx-20 container mx-auto"
         style={{ scrollSnapType: "x mandatory" }}
       >
         {banners.map((banner, index) => (
@@ -58,7 +58,7 @@ const AutoScrollCarousel: React.FC = () => {
             key={index}
             href={banner.link}
             className={cn(
-              "flex-shrink-0 w-full md:w-1/3 snap-center",
+              "flex-shrink-0 w-[calc(100%-16px)] md:w-[calc(33.333%-16px)] snap-center rounded-lg overflow-hidden",
               "hover:opacity-90"
             )}
           >
@@ -86,6 +86,7 @@ const AutoScrollCarousel: React.FC = () => {
         ))}
       </div>
     </div>
+
   );
 };
 

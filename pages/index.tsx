@@ -4,6 +4,7 @@ import { useRouter } from 'next/navigation'
 import { Hero } from '../components/Hero'
 import { ProductGrid } from '../components/ProductGrid'
 import { items } from '../data/items'
+import AutoScrollCarousel from '@/components/AutoScollCarousel'
 
 export async function getServerSideProps() {
   const slides = [
@@ -46,6 +47,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <main>
         <Hero />
+        <AutoScrollCarousel />
         <ProductGrid title="Trending Products" products={items.filter((item) => item.trending === true)} onProductClick={handleProductClick} />
         <ProductGrid title="Supplements" products={items.filter((item) => item.category == 'supplement')} onProductClick={handleProductClick} />
         <ProductGrid title="Herbal Products" products={items.filter((item) => item.category == 'herb')} onProductClick={handleProductClick} />
