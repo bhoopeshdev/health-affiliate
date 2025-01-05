@@ -1,10 +1,9 @@
 import Image from "next/image";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { Review, Product, ProductGridProps } from "../data/types";
+import { ProductGridProps } from "../data/types";
 
 export function ProductGrid({ title, products }: ProductGridProps) {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -77,7 +76,7 @@ export function ProductGrid({ title, products }: ProductGridProps) {
                 className="w-full h-48 object-cover rounded-md"
               />
                 <h3 className="mt-2 text-sm font-semibold">{product.name}</h3>
-                <p className="text-orange-600 font-semibold text-sm">₹<span className="line-through italic text-gray-400">{product.striked_price}</span>{product.price}</p>
+                <p className="text-orange-600 font-semibold text-sm">₹<span className="line-through italic text-gray-400 text-xs">{product.striked_price}</span>{product.price}</p>
               </CardContent>
               <CardFooter>
                   <Link href={`/product/${product.id}`} className="w-full bg-gray-800 hover:bg-gray-700 text-white py-2 px-2 rounded text-sm flex flex-row justify-center">View Product</Link>

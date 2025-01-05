@@ -21,7 +21,7 @@ export function Navbar() {
             width={25}
             height={25}
           />
-          <p className="text-lg font-bold text-gray-600 dela-gothic-one-regular">
+          <p className="text-lg font-bold text-gray-600 dela-gothic-one-bold">
             BdHealthClub
           </p>
         </Link>

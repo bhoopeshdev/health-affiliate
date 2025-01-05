@@ -34,7 +34,7 @@ export function ProductDetails({ product }: { product: Product }) {
       <div>
         <p>
           <span className='font-semibold'>Price: </span> 
-          {product.striked_price && <span className='line-through'>₹{product.striked_price}</span>}
+          {product.striked_price && <span className='line-through text-sm'>₹{product.striked_price}</span>}
           <span> ₹{product.price}</span></p>
       </div>
       

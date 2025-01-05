@@ -672,7 +672,7 @@ export const items = [
     "id": "20",
     "name": "Kapiva Dia Free Juice - Blood Sugar Management",
     "price": 1099.00,
-    "strike_price": 1198.00,
+    "striked_price": 1198.00,
     "category": "herb",
     "subcategory": "diabetic",
     "images": [
@@ -731,7 +731,7 @@ export const items = [
     "id": "13",
     "name": "Blue Tea Belly Fat Herbal Infusion - 60 Tea Bags",
     "price": 749.00,
-    "strike_price": 899.00,
+    "striked_price": 899.00,
     "category": "herb",
     "subcategory": "drinks",
     "images": [
@@ -1041,7 +1041,7 @@ export const items = [
     "id": "18",
     "name": "Sova - Gut Set Go | Boost Your Gut Health Daily With Best Probiotics supplement",
     "price": 949.00,
-    "strike_price": 1198.00,
+    "striked_price": 1198.00,
     "category": "supplement",
     "subcategory": "Probiotics",
     "images": [
