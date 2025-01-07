@@ -21,18 +21,21 @@ export function Footer() {
           <div>
             <h4 className="text-md font-semibold mb-4">Contact Us</h4>
             <p className="text-sm text-gray-600 mb-2">Phone: +91-9039709738</p>
-            <p className="text-sm text-gray-600">Email: customer@bdhealthclub.com</p>
+            <p className="text-sm text-gray-600">Email: customer.bdhealthclub@gmail.com</p>
           </div>
 
           <div>
             <h4 className="text-md font-semibold mb-4">Follow us on</h4>
             <ul className="space-y-2">
-              <li><Link href="/" className="text-sm text-gray-600 hover:text-orange-600 flex flex-row items-center gap-2"><Instagram className='w-4 h-4'/>Instagram</Link></li>
+              <li><Link href="http://www.youtube.com/@BDHealthClub" className="text-sm text-gray-600 hover:text-orange-600 flex flex-row items-center gap-2"><Instagram className='w-4 h-4'/>Instagram</Link></li>
               <li><Link href="/" className="text-sm text-gray-600 hover:text-orange-600 flex flex-row items-center gap-2"><Youtube className='w-4 h-4'/>Youtube</Link></li>
             </ul>
           </div>
         </div>
-        
+        {/* Separator line */}
+        <div className="h-px bg-gray-300 my-4"></div>
+
+        <p className='text-sm text-gray-600'><strong>Disclaimer - </strong>This page contains affiliate links. As an affiliate, we may earn a small commission from qualifying purchases at no additional cost to you. This helps us continue to provide well-researched and curated product recommendations.</p>
       </div>
     </footer>
   ) 

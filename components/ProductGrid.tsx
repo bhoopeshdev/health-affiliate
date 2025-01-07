@@ -75,7 +75,7 @@ export function ProductGrid({ title, products }: ProductGridProps) {
                 height={200}              // Desired height
                 className="w-full h-48 object-cover rounded-md"
               />
-                <h3 className="mt-2 text-sm font-semibold">{product.name}</h3>
+                <h3 className="mt-2 text-sm font-regular">{product.name}</h3>
                 <p className="text-orange-600 font-semibold text-sm">₹<span className="line-through italic text-gray-400 text-xs">{product.striked_price}</span>{product.price}</p>
               </CardContent>
               <CardFooter>

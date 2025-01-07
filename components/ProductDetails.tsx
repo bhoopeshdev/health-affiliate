@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button"
 import { useWishlist } from '../context/WishlistContext'
 import { Product } from '../data/types'
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
+import { RWebShare } from "react-web-share";
+import { usePathname } from 'next/navigation'
 
 export function ProductDetails({ product }: { product: Product }) {
 
@@ -16,6 +18,10 @@ export function ProductDetails({ product }: { product: Product }) {
       console.log('Adding to wishlist:', product.name);
       addToWishlist(product)
     }
+  }
+
+  const getCurrentPath = () => {
+    return usePathname()
   }
 
   return (
@@ -78,7 +84,7 @@ export function ProductDetails({ product }: { product: Product }) {
 
       <div className="flex space-x-4">
         <Button onClick={() => window.open(product.affiliate_link, '_blank')}>
-          Buy Now 
+          Buy Link 
         </Button>
         <Button 
           className="mb-4 flex items-center"
@@ -90,9 +96,19 @@ export function ProductDetails({ product }: { product: Product }) {
           </svg>
           {isInWishlist ? 'Added to Wishlist' : 'Add to Wishlist'}
         </Button>
-        <Button variant="outline">
-          <Share2 className="mr-2 h-4 w-4" /> Share
-        </Button>
+        
+        <RWebShare
+            data={{
+                text: product.name,
+                url: getCurrentPath(),
+                title: product.name,
+            }}
+            onClick={() => console.log("shared successfully!")}
+        >
+          <Button variant="outline">
+            <Share2 className="mr-2 h-4 w-4" /> Share
+          </Button>
+        </RWebShare>
       </div>
     </div>
   )

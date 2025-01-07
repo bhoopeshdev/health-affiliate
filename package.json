@@ -19,6 +19,7 @@
     "out": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-web-share": "^2.0.2",
     "shadcn-ui": "^0.9.4",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"

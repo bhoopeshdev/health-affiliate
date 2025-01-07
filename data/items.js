@@ -363,7 +363,7 @@ export const items = [
   },
   {
     "id": "7",
-    "name": "shukalmukatadi Pravahi Kwath, for Diabetic",
+    "name": "Shukalmukatadi Pravahi Kwath, for Diabetic",
     "price": 595.00,
     "category": "herb",
     "subcategory": "diabetic",

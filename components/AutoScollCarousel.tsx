@@ -11,8 +11,8 @@ interface Banner {
 
 const banners: Banner[] = [
   {
-    image: "/banner/blue_tea_belly_fat_herbal_infusion.jpg",
-    link: "/product/13",
+    image: "/banner/blue_tea_butterfly_pea_flower.jpg",
+    link: "/product/14",
   },
   {
     image: "/banner/sova_gut_health_booster.jpg",
