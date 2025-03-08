@@ -276,6 +276,12 @@ const PistachiosVsAlmonds: React.FC = () => {
               <h3 className="text-xl font-medium roboto-regular mb-2">Pistachios</h3>
               <ul className="list-none list-inside text-gray-700 roboto-regular">
                 <li>
+                  <a href="https://bitli.in/NyTLWsh" className="text-blue-600 hover:underline">
+                  Krishival Nuts Pistachios
+                  </a>{' '}
+                  – Pista 250g, Roasted and Salted Pistachios, High-Protein Nuts, Krishival Delicious Dry Fruits, Gluten-Free
+                </li>
+                <li>
                   <a href="https://amzn.to/3DsBpk9" className="text-blue-600 hover:underline">
                   Kitchen Jungle Pistachio
                   </a>{' '}
@@ -298,6 +304,13 @@ const PistachiosVsAlmonds: React.FC = () => {
             <div className="p-6">
               <h3 className="text-xl font-medium roboto-regular mb-2">Almonds</h3>
               <ul className="list-none list-inside text-gray-700 roboto-regular">
+                <li>
+                  <a href="https://bitli.in/ZFJ9J4I" className="text-blue-600 hover:underline">
+                  Krishival California Salted Almonds
+                  </a>{' '}
+                  – California Salted Almonds, Ethically Sourced, High in Protein, Lip Smacking Flavor and Convenient Packaging
+                </li>
+                
                 <li>
                   <a href="https://amzn.to/4hfhW4b" className="text-blue-600 hover:underline">
                     Ziofit Popular Californian Almonds
