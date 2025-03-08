@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
+import Image from 'next/image';
 
 const PistachiosVsAlmonds: React.FC = () => {
   return (
@@ -14,13 +15,25 @@ const PistachiosVsAlmonds: React.FC = () => {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Blog Title */}
-        <h1 className="text-4xl font-bold text-center text-green-800 mb-8">
+        <h1 className="text-4xl font-bold text-center roboto-regular mb-8">
           Pistachios vs Almonds: Which is Better for Your Health?
         </h1>
 
+        <div className="w-full"> {/* Container for the Image to take full width of parent */}
+          <Image
+            src="/blog/banner/pistachios_vs_almonds.jpg" // Ensure correct path and file extension
+            alt="Pistachios vs Almonds Banner"
+            width={1000} // Set an initial width (will be responsive)
+            height={500} // Set an initial height (adjust aspect ratio as needed)
+            layout="responsive" // Make the image responsive
+            objectFit="cover" // Cover the container area
+            className='w-full rounded-lg shadow-lg'
+          />
+        </div>
+
         {/* Introduction */}
-        <section className="mb-8">
-          <p className="text-gray-700 leading-relaxed">
+        <section className="my-8">
+          <p className="text-gray-700 leading-relaxed roboto-regular">
             When it comes to healthy snacking, nuts are often at the top of the list. Among the most popular are{' '}
             <strong>pistachios</strong> and <strong>almonds</strong>, both of which are packed with nutrients and offer
             numerous health benefits. But which one is better for your health? In this blog, we’ll dive deep into the
@@ -32,11 +45,11 @@ const PistachiosVsAlmonds: React.FC = () => {
 
         {/* Nutrient Composition */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-green-700 mb-4">Nutrient Composition</h2>
+          <h2 className="text-2xl font-semibold mb-4 roboto-regular">Nutrient Composition</h2>
           <div className="gap-6">
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Pistachios (Per 1 oz serving - about 49 kernels)</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium mb-2 roboto-regular">Pistachios (Per 1 oz serving - about 49 kernels)</h3>
+              <ul className="list-none list-inside text-gray-700 roboto-regular">
                 <li>
                   <strong>Calories</strong>: 159 kcal
                 </li>
@@ -59,8 +72,8 @@ const PistachiosVsAlmonds: React.FC = () => {
               </ul>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Almonds (Per 1 oz serving - about 23 kernels)</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium mb-2 roboto-regular">Almonds (Per 1 oz serving - about 23 kernels)</h3>
+              <ul className="list-none list-inside text-gray-700 roboto-regular">
                 <li>
                   <strong>Calories</strong>: 164 kcal
                 </li>
@@ -86,11 +99,11 @@ const PistachiosVsAlmonds: React.FC = () => {
 
         {/* Health Benefits */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-green-700 mb-4">Health Benefits</h2>
+          <h2 className="text-2xl font-semibold roboto-regular mb-4">Health Benefits</h2>
           <div className="gap-6">
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Pistachios</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium roboto-regular mb-2">Pistachios</h3>
+              <ul className="list-disc list-inside text-gray-700 roboto-regular">
                 <li>
                   <strong>Heart Health</strong>: Rich in monounsaturated fats and antioxidants, pistachios help lower bad
                   cholesterol (LDL) and improve heart health.
@@ -110,8 +123,8 @@ const PistachiosVsAlmonds: React.FC = () => {
               </ul>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Almonds</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium roboto-regular mb-2">Almonds</h3>
+              <ul className="list-disc list-inside text-gray-700 roboto-regular">
                 <li>
                   <strong>Skin Health</strong>: High in vitamin E, which protects the skin from oxidative damage and keeps
                   it glowing.
@@ -133,11 +146,11 @@ const PistachiosVsAlmonds: React.FC = () => {
 
         {/* How to Consume */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-green-700 mb-4">How to Consume</h2>
+          <h2 className="text-2xl font-semibold roboto-regular mb-4">How to Consume</h2>
           <div className="gap-6">
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Pistachios</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium roboto-regular mb-2">Pistachios</h3>
+              <ul className="list-disc list-inside text-gray-700 roboto-regular">
                 <li>
                   <strong>As a Snack</strong>: Enjoy them raw or roasted for a quick, satisfying snack.
                 </li>
@@ -153,8 +166,8 @@ const PistachiosVsAlmonds: React.FC = () => {
               </ul>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Almonds</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium roboto-regular mb-2">Almonds</h3>
+              <ul className="list-disc list-inside text-gray-700 roboto-regular">
                 <li>
                   <strong>As a Snack</strong>: Eat them raw, roasted, or flavored (e.g., smoked or honey-roasted).
                 </li>
@@ -174,9 +187,9 @@ const PistachiosVsAlmonds: React.FC = () => {
 
         {/* Comparison with Other Alternatives */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-green-700 mb-4">Comparison with Other Alternatives</h2>
+          <h2 className="text-2xl font-semibold roboto-regular mb-4">Comparison with Other Alternatives</h2>
           <div className="overflow-x-auto">
-            <table className="min-w-full bg-white rounded-lg shadow-md">
+            <table className="min-w-full bg-white rounded-lg shadow-md roboto-regular">
               <thead>
                 <tr className="bg-green-100">
                   <th className="px-4 py-2 text-left">Nutrient/Aspect</th>
@@ -229,11 +242,11 @@ const PistachiosVsAlmonds: React.FC = () => {
 
         {/* Recommendations */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-green-700 mb-4">Recommendations: Who Should Choose Which?</h2>
+          <h2 className="text-2xl font-semibold roboto-regular mb-4">Recommendations: Who Should Choose Which?</h2>
           <div className="gap-6">
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Choose Pistachios If You:</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium roboto-regular mb-2">Choose Pistachios If You:</h3>
+              <ul className="list-disc list-inside text-gray-700 roboto-regular">
                 <li>Are looking for a lower-calorie nut for weight loss.</li>
                 <li>Want to improve heart and eye health.</li>
                 <li>Need a snack that’s easy to portion control (thanks to the shells).</li>
@@ -241,8 +254,8 @@ const PistachiosVsAlmonds: React.FC = () => {
               </ul>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Choose Almonds If You:</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium roboto-regular mb-2">Choose Almonds If You:</h3>
+              <ul className="list-disc list-inside text-gray-700 roboto-regular">
                 <li>Want to improve skin and bone health.</li>
                 <li>Are following a gluten-free or low-carb diet.</li>
                 <li>Need a high-vitamin E snack for antioxidant benefits.</li>
@@ -254,14 +267,14 @@ const PistachiosVsAlmonds: React.FC = () => {
 
         {/* Affiliate Product Recommendations */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-green-700 mb-4">Affiliate Product Recommendations</h2>
-          <p className="text-gray-700 mb-4">
+          <h2 className="text-2xl font-semibold roboto-regular mb-4">Affiliate Product Recommendations</h2>
+          <p className="text-gray-700 mb-4 roboto-regular">
             Here are some high-quality pistachio and almond products you can buy online:
           </p>
           <div className="gap-6">
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Pistachios</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium roboto-regular mb-2">Pistachios</h3>
+              <ul className="list-none list-inside text-gray-700 roboto-regular">
                 <li>
                   <a href="#" className="text-blue-600 hover:underline">
                     Wonderful Pistachios, No Shells
@@ -283,8 +296,8 @@ const PistachiosVsAlmonds: React.FC = () => {
               </ul>
             </div>
             <div className="p-6">
-              <h3 className="text-xl font-medium text-green-700 mb-2">Almonds</h3>
-              <ul className="list-disc list-inside text-gray-700">
+              <h3 className="text-xl font-medium roboto-regular mb-2">Almonds</h3>
+              <ul className="list-none list-inside text-gray-700 roboto-regular">
                 <li>
                   <a href="#" className="text-blue-600 hover:underline">
                     Blue Diamond Almonds, Whole Natural
@@ -314,15 +327,15 @@ const PistachiosVsAlmonds: React.FC = () => {
 
         {/* Summary */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-green-700 mb-4">Summary</h2>
-          <p className="text-gray-700 leading-relaxed">
+          <h2 className="text-2xl font-semibold roboto-regular mb-4">Summary</h2>
+          <p className="text-gray-700 leading-relaxed roboto-regular">
             Both pistachios and almonds are incredibly nutritious and offer unique health benefits. If you’re looking for a
             lower-calorie option that supports heart and eye health, <strong>pistachios</strong> are a great choice. On the
             other hand, if you want to boost your skin, bone, and brain health, <strong>almonds</strong> are the way to go.
             Ultimately, incorporating both into your diet can provide a wide range of nutrients and keep your snacking
             routine exciting.
           </p>
-          <p className="text-gray-700 leading-relaxed mt-4">
+          <p className="text-gray-700 leading-relaxed mt-4 roboto-regular">
             Don’t forget to check out the affiliate links above for some of my favorite pistachio and almond products. Happy
             snacking! 🌰
           </p>
