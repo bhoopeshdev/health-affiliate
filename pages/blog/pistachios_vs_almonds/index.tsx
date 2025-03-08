@@ -276,22 +276,22 @@ const PistachiosVsAlmonds: React.FC = () => {
               <h3 className="text-xl font-medium roboto-regular mb-2">Pistachios</h3>
               <ul className="list-none list-inside text-gray-700 roboto-regular">
                 <li>
-                  <a href="#" className="text-blue-600 hover:underline">
-                    Wonderful Pistachios, No Shells
+                  <a href="https://amzn.to/3DsBpk9" className="text-blue-600 hover:underline">
+                  Kitchen Jungle Pistachio
                   </a>{' '}
-                  – Perfect for snacking or adding to recipes.
+                  – Pistachio Kernals Without Shell Whole, Mota Pista | Bada Pista
                 </li>
                 <li>
-                  <a href="#" className="text-blue-600 hover:underline">
-                    Terrasoul Superfoods Raw Pistachios
+                  <a href="https://amzn.to/3QRcdH6" className="text-blue-600 hover:underline">
+                  Nutraj California 
                   </a>{' '}
-                  – Organic and raw for maximum nutrition.
+                  – Salted Pista 500gm (250gm x 2) | Dry Fruit | Pistachios
                 </li>
                 <li>
-                  <a href="#" className="text-blue-600 hover:underline">
-                    Justin’s Classic Peanut Butter
+                  <a href="https://amzn.to/4byGBj0" className="text-blue-600 hover:underline">
+                  Happilo Premium Unsalted Pistachio Kernels 150g (Pack of 2)
                   </a>{' '}
-                  – A great alternative for nut butter lovers.
+                  – Pistachio Kernels 150g (Pack of 2)
                 </li>
               </ul>
             </div>
@@ -299,22 +299,22 @@ const PistachiosVsAlmonds: React.FC = () => {
               <h3 className="text-xl font-medium roboto-regular mb-2">Almonds</h3>
               <ul className="list-none list-inside text-gray-700 roboto-regular">
                 <li>
-                  <a href="#" className="text-blue-600 hover:underline">
-                    Blue Diamond Almonds, Whole Natural
+                  <a href="https://amzn.to/4hfhW4b" className="text-blue-600 hover:underline">
+                    Ziofit Popular Californian Almonds
                   </a>{' '}
-                  – A versatile option for snacking or cooking.
+                  – 1 Kg, Raw Badam Dry Fruit, High Protien Snack and Super Healthy Nuts(Pack of 2X500GMS)
                 </li>
                 <li>
-                  <a href="#" className="text-blue-600 hover:underline">
-                    Barney Butter Almond Butter
+                  <a href="https://amzn.to/3FdUKGr" className="text-blue-600 hover:underline">
+                    Farmley California Almonds
                   </a>{' '}
-                  – Creamy and delicious for spreads or smoothies.
+                  – California Almonds Whole 500 g | Protein & Fiber Rich | Premium Badam Giri | Value Pack (Pack of 1)
                 </li>
                 <li>
-                  <a href="#" className="text-blue-600 hover:underline">
-                    365 by Whole Foods Market, Almond Flour
+                  <a href="https://amzn.to/4kzRBAM" className="text-blue-600 hover:underline">
+                    Tulsi California Almonds
                   </a>{' '}
-                  – Ideal for gluten-free baking.
+                  – California Almonds Premium 1Kg | Whole Almond
                 </li>
               </ul>
             </div>
