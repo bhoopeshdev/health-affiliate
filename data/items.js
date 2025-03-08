@@ -669,7 +669,7 @@ export const items = [
     ]
   },
   {
-    "id": "20",
+    "id": "12",
     "name": "Kapiva Dia Free Juice - Blood Sugar Management",
     "price": 1099.00,
     "striked_price": 1198.00,
