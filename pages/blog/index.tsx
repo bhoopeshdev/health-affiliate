@@ -13,7 +13,7 @@ interface Blog {
 
 const blogs: Blog[] = [
   {
-    slug: 'Pistachios vs Almonds',
+    slug: 'pistachios_vs_almonds',
     title: 'Pistachios vs Almonds: Which is Better for Your Health?',
     description: 'When it comes to healthy snacking, nuts are often at the top of the list. Among the most popular are pistachios and almonds ...',
     date: '2025-03-08',
