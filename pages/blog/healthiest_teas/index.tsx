@@ -44,7 +44,10 @@ const HealthiestTeas = () => {
           objectFit="fill" // Cover the container area
           className="rounded-lg shadow-lg my-4"
         />
-        <p className=" roboto-regular text-gray-600 mb-3"><strong>Description:</strong>  This delicate beverage is rich in polyphenols, particularly catechins like EGCG (epigallocatechin gallate), which have been linked to numerous health advantages. 3  With its refreshing, slightly grassy flavor, green tea offers a gentle energy boost and a sense of well-being, making it a popular choice for those seeking a healthy and invigorating drink.</p>
+        <p className=" roboto-regular text-gray-600 mb-3"><strong>Description:</strong>  This delicate beverage is rich in polyphenols
+        , particularly catechins like EGCG (epigallocatechin gallate), which have been linked to numerous health advantages.
+         With its refreshing, slightly grassy flavor, green tea offers a gentle energy boost and a sense of well-being, 
+         making it a popular choice for those seeking a healthy and invigorating drink.</p>
         <div className="bg-emerald-50 p-4 rounded-lg">
           <h3 className="roboto-regular roboto-regularfont-semibold mb-2">Health Benefits:</h3>
           <ul className="roboto-regular list-disc pl-6 mb-4">
@@ -76,7 +79,12 @@ const HealthiestTeas = () => {
           objectFit="fill" // Cover the container area
           className="rounded-lg shadow-lg my-4"
         />
-        <p className=" roboto-regular text-gray-600 mb-3"><strong>Description:</strong> Ginger tea, a warming and invigorating beverage, has been cherished for centuries for its potent medicinal properties. 1  Brewed from the rhizome of the ginger plant, this tea boasts a distinctive spicy and slightly sweet flavor. 2  It's a natural remedy often used to soothe digestive discomfort, alleviate nausea, and reduce inflammation. 3  Ginger's active compounds, such as gingerol, possess antioxidant and anti-inflammatory effects, making it a comforting and healthful choice, particularly during cold seasons or when seeking relief from minor ailments. 4  Whether enjoyed hot or cold, ginger tea offers a soothing and revitalizing experience.</p>
+        <p className=" roboto-regular text-gray-600 mb-3"><strong>Description:</strong> Ginger tea, a warming and invigorating beverage
+        , has been cherished for centuries for its potent medicinal properties. Brewed from the rhizome of the ginger plant, 
+        this tea boasts a distinctive spicy and slightly sweet flavor. It's a natural remedy often used to soothe digestive discomfort
+        , alleviate nausea, and reduce inflammation. Ginger's active compounds, such as gingerol, possess antioxidant and anti-inflammatory effects
+        , making it a comforting and healthful choice, particularly during cold seasons or when seeking relief from minor ailments.
+         Whether enjoyed hot or cold, ginger tea offers a soothing and revitalizing experience.</p>
         <div className="bg-emerald-50 p-4 rounded-lg">
           <h3 className="roboto-regular roboto-regularfont-semibold mb-2">Health Benefits:</h3>
           <ul className="roboto-regular list-disc pl-6 mb-4">
@@ -108,7 +116,11 @@ const HealthiestTeas = () => {
           objectFit="fill" // Cover the container area
           className="rounded-lg shadow-lg my-4"
         />
-        <p className=" roboto-regular text-gray-600 mb-3"><strong>Description:</strong> Black tea, a globally beloved beverage, is known for its robust flavor and invigorating properties. Derived from the leaves of the Camellia sinensis plant, it undergoes a full oxidation process, which gives it its characteristic dark color and rich, malty taste. This oxidation also contributes to its higher caffeine content compared to other tea varieties. Black tea is a staple in many cultures, often enjoyed with milk and sugar, or as a refreshing iced drink. Beyond its stimulating effects, black tea is also a source of antioxidants, offering potential benefits for heart health and overall well-being.</p>
+        <p className=" roboto-regular text-gray-600 mb-3"><strong>Description:</strong> Black tea, a globally beloved beverage, is known for its robust
+         flavor and invigorating properties. Derived from the leaves of the Camellia sinensis plant, it undergoes a full oxidation process, 
+         which gives it its characteristic dark color and rich, malty taste. This oxidation also contributes to its higher caffeine content
+          compared to other tea varieties. Black tea is a staple in many cultures, often enjoyed with milk and sugar, or as a refreshing iced drink.
+          Beyond its stimulating effects, black tea is also a source of antioxidants, offering potential benefits for heart health and overall well-being.</p>
         <div className="bg-emerald-50 p-4 rounded-lg">
           <h3 className="roboto-regular roboto-regularfont-semibold mb-2">Health Benefits:</h3>
           <ul className="roboto-regular list-disc pl-6 mb-4">
@@ -140,7 +152,10 @@ const HealthiestTeas = () => {
           objectFit="fill" // Cover the container area
           className="rounded-lg shadow-lg my-4"
         />
-        <p className=" roboto-regular text-gray-600 mb-3"><strong>Description:</strong> Vibrant blue-hued and caffeine-free, this herbal tea is made from butterfly pea flowers, loaded with anthocyanins. Blue tea has a mild, earthy, and slightly floral flavor. It's naturally caffeine-free, making it a soothing beverage for any time of day. The anthocyanins in blue tea are believed to offer various health benefits, including antioxidant and anti-inflammatory effects. </p>
+        <p className=" roboto-regular text-gray-600 mb-3"><strong>Description:</strong> Vibrant blue-hued and caffeine-free, this herbal tea is made 
+        from butterfly pea flowers, loaded with anthocyanins. Blue tea has a mild, earthy, and slightly floral flavor. It's naturally caffeine-free
+        , making it a soothing beverage for any time of day. The anthocyanins in blue tea are believed to offer various health benefits, including
+         antioxidant and anti-inflammatory effects. </p>
         <div className="bg-emerald-50 p-4 rounded-lg">
           <h3 className="roboto-regular roboto-regularfont-semibold mb-2">Health Benefits:</h3>
           <ul className="roboto-regular list-disc pl-6 mb-4">
