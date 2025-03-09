@@ -19,6 +19,14 @@ const blogs: Blog[] = [
     date: '2025-03-08',
     imageUrl: '/blog/banner/pistachios_vs_almonds.jpg',
     tags: ['food', 'snack'],
+  },
+  {
+    slug: 'healthiest_teas',
+    title: 'Healthiest Teas and Their Benefits',
+    description: 'For centuries, tea has been cherished globally not just for its soothing flavors but for its remarkable health benefits    ...',
+    date: '2025-03-09',
+    imageUrl: '/blog/banner/tea_banner.jpg',
+    tags: ['drink', 'snack', 'tea'],
   }
 ];
 
@@ -66,18 +74,20 @@ const BlogHomePage: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredBlogs.map((blog) => (
           <Link key={blog.slug} href={`/blog/${blog.slug}`} passHref>
-            <div className="border rounded p-4 cursor-pointer hover:shadow-md transition-shadow">
+            <div className="border rounded p-4 cursor-pointer hover:shadow-md transition-shadow h-[300px] flex flex-col"> {/* Fixed height and flex column */}
               <Image
                 src={blog.imageUrl}
                 alt={blog.title}
-                width={1000} // Set an initial width (will be responsive)
-                height={500} // Set an initial height (adjust aspect ratio as needed)
-                layout="responsive" // Make the image responsive
-                objectFit="cover" // Cover the container area
+                width={1000}
+                height={500}
+                layout="responsive"
+                objectFit="cover"
                 className="w-full h-40 object-cover mb-2 rounded"
               />
-              <h2 className="text-xl font-semibold mb-1">{blog.title}</h2>
-              <p className="text-gray-600 mb-2">{blog.description}</p>
+              <div className="flex-grow overflow-hidden"> {/* Content wrapper with overflow handling */}
+                <h2 className="text-xl font-semibold mb-1">{blog.title}</h2>
+                <p className="text-gray-600 mb-2">{blog.description}</p>
+              </div>
               <p className="text-sm text-gray-500">{blog.date}</p>
             </div>
           </Link>
