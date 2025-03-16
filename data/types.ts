@@ -31,5 +31,14 @@ export interface Review {
     products: Product[];
     onProductClick?: (productId: string) => void; // Marking it optional with `?`
   }
+
+  export interface Blog {
+    slug: string,
+    title: string,
+    description: string,
+    date: string,
+    imageUrl: string,
+    tags: string[],
+  }
   
   

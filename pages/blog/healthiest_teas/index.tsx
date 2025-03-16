@@ -2,10 +2,21 @@
 
 import React from 'react';
 import Image from 'next/image';
+import Breadcrumbs from '@/components/ui/breadcrumbs';
 
 const HealthiestTeas = () => {
+
+  const breadcrumbItems = [
+    { label: 'Home', href: '/blog' },
+    { label: 'Healthiest Teas' }
+  ];
+
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
+
+       {/* Breadcrumbs */}
+       <Breadcrumbs items={breadcrumbItems} />
+       
       <h1 className="roboto-regular text-4xl font-bold mb-6">
         Healthiest Teas and Their Benefits: Boost Wellness One Sip at a Time
       </h1>
@@ -296,14 +307,6 @@ const HealthiestTeas = () => {
           <p className="roboto-regular">Rotate teas seasonally - iced hibiscus in summer, spiced ginger in winter!</p>
         </div>
       </section>
-
-      {/* Disclosure */}
-      <div className=" roboto-regular text-sm text-gray-500 border-t pt-4">
-        <p className="roboto-regular">
-          Disclosure: This post contains affiliate links. If you purchase through these links, 
-          we may earn a small commission at no extra cost to you. Thank you for supporting our blog!
-        </p>
-      </div>
     </div>
   );
 };

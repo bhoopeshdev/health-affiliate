@@ -1,8 +1,16 @@
 import Head from 'next/head';
 import React from 'react';
 import Image from 'next/image';
+import Breadcrumbs from '@/components/ui/breadcrumbs';
+
 
 const PistachiosVsAlmonds: React.FC = () => {
+  
+  const breadcrumbItems = [
+    { label: 'Home', href: '/blog' },
+    { label: 'Pistachios vs Almonds' }
+  ];
+  
   return (
     <div className="min-h-screen py-8">
       <Head>
@@ -14,6 +22,10 @@ const PistachiosVsAlmonds: React.FC = () => {
       </Head>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Breadcrumbs */}
+        <Breadcrumbs items={breadcrumbItems} />
+
         {/* Blog Title */}
         <h1 className="text-4xl font-bold text-center roboto-regular mb-8">
           Pistachios vs Almonds: Which is Better for Your Health?
@@ -332,10 +344,6 @@ const PistachiosVsAlmonds: React.FC = () => {
               </ul>
             </div>
           </div>
-          <p className="text-sm text-gray-600 mt-4">
-            *Disclosure: This post contains affiliate links. If you make a purchase through these links, I may earn a small
-            commission at no extra cost to you.*
-          </p>
         </section>
 
         {/* Summary */}

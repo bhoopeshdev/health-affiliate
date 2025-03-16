@@ -20,7 +20,7 @@ const banners: Banner[] = [
   },
   {
     image: "/banner/kapiva_dia_free_juice.jpg",
-    link: "/product/20",
+    link: "/product/12",
   }
 ];
 

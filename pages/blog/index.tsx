@@ -1,34 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import {Blog} from '@/data/types';
+import { blogs } from '@/data/blog_data';
 
-interface Blog {
-  slug: string; // Used for routing
-  title: string;
-  description: string;
-  date: string;
-  imageUrl: string;
-  tags: string[]; // For filtering
-}
-
-const blogs: Blog[] = [
-  {
-    slug: 'pistachios_vs_almonds',
-    title: 'Pistachios vs Almonds: Which is Better for Your Health?',
-    description: 'When it comes to healthy snacking, nuts are often at the top of the list. Among the most popular are pistachios and almonds ...',
-    date: '2025-03-08',
-    imageUrl: '/blog/banner/pistachios_vs_almonds.jpg',
-    tags: ['food', 'snack'],
-  },
-  {
-    slug: 'healthiest_teas',
-    title: 'Healthiest Teas and Their Benefits',
-    description: 'For centuries, tea has been cherished globally not just for its soothing flavors but for its remarkable health benefits    ...',
-    date: '2025-03-09',
-    imageUrl: '/blog/banner/tea_banner.jpg',
-    tags: ['drink', 'snack', 'tea'],
-  }
-];
 
 const BlogHomePage: React.FC = () => {
   const [filteredBlogs, setFilteredBlogs] = React.useState<Blog[]>(blogs);
@@ -47,7 +22,7 @@ const BlogHomePage: React.FC = () => {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4 roboto-regular">My Blog</h1>
+      <div className='bg-gray-100 mb-4 p-4 rounded-lg'><h1 className="text-2xl font-bold">Blog</h1></div>
 
       <div className="mb-4 roboto-regular">
         <button
@@ -56,13 +31,13 @@ const BlogHomePage: React.FC = () => {
           }`}
           onClick={() => handleTagFilter(null)}
         >
-          All
+          all
         </button>
         {allTags.map((tag) => (
           <button
             key={tag}
             className={`mr-2 mb-2 px-4 py-2 rounded ${
-              selectedTag === tag ? 'bg-blue-500 text-white' : 'bg-gray-200'
+              selectedTag === tag ? 'bg-orange-500 text-white' : 'bg-gray-200'
             }`}
             onClick={() => handleTagFilter(tag)}
           >
@@ -74,7 +49,7 @@ const BlogHomePage: React.FC = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {filteredBlogs.map((blog) => (
           <Link key={blog.slug} href={`/blog/${blog.slug}`} passHref>
-            <div className="border rounded p-4 cursor-pointer hover:shadow-md transition-shadow h-[300px] flex flex-col"> {/* Fixed height and flex column */}
+            <div className="border rounded p-4 cursor-pointer bg-gray-100 hover:shadow-md transition-shadow h-[300px] flex flex-col"> {/* Fixed height and flex column */}
               <Image
                 src={blog.imageUrl}
                 alt={blog.title}

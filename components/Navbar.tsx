@@ -52,7 +52,7 @@ export function Navbar() {
       <div className="block sm:hidden px-4 pb-3">
         <SearchBar />
       </div>
-
+    
       <WishlistPopup isOpen={isWishlistOpen} onClose={() => setIsWishlistOpen(false)} />
     </nav>
   );
