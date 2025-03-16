@@ -16,5 +16,12 @@ export const blogs: Blog[] = [
       date: '2025-03-09',
       imageUrl: '/blog/banner/tea_banner.jpg',
       tags: ['drink', 'snack', 'tea'],
+    },{
+      slug: 'controlling_diabetes',
+      title: 'Mastering Blood Sugar with Ayurveda',
+      description: 'Ayurveda refers to diabetes as Madhumeha ("honey-like urine"), a subtype of Prameha (urinary disorders). According to    ...',
+      date: '2025-03-16',
+      imageUrl: '/blog/banner/ayurveda.jpg',
+      tags: ['drink', 'snack', 'tea'],
     }
   ];

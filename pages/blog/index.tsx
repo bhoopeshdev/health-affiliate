@@ -54,8 +54,8 @@ const BlogHomePage: React.FC = () => {
                 src={blog.imageUrl}
                 alt={blog.title}
                 width={1000}
-                height={500}
-                layout="responsive"
+                height={400}
+                // layout="responsive"
                 objectFit="cover"
                 className="w-full h-40 object-cover mb-2 rounded"
               />

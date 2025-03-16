@@ -107,7 +107,7 @@ const BlogPost: React.FC = () => {
       {/* Banner Image */}
       <div className="mb-8 rounded-lg overflow-hidden">
         <Image
-          src="/banner/ayurveda.jpg"
+          src="/blog/banner/ayurveda.jpg"
           alt="Ayurvedic Diabetes Management"
           width={1200}
           height={400}
