@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import React, { useState } from 'react'
 import { Heart } from 'lucide-react'
 import WishlistPopup from './WishListPopup'
@@ -9,6 +10,13 @@ import { SearchBar } from './SearchBar'
 export function Navbar() {
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
   const { wishlist } = useWishlist();
+
+  const router = useRouter();
+  const isBlogPage = router.pathname === '/blog';
+
+  const linkText = isBlogPage ? 'Home' : 'Blog';
+  const linkHref = isBlogPage ? '/' : '/blog';
+
 
   return (
     <nav className="relative bg-white shadow-md">
@@ -29,7 +37,12 @@ export function Navbar() {
         {/* Search Bar for larger screens */}
         <div className="hidden sm:block w-full">
           <SearchBar />
-        </div>      
+        </div>
+
+
+        <Link href={linkHref} className="text-sm font-extrabold text-red-800 p-2 rounded hover:bg-orange-400 hover:text-white transition-colors">
+          {linkText}
+        </Link>  
 
         {/* Wishlist Button */}
         <button

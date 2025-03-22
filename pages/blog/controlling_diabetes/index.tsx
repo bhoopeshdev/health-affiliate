@@ -83,18 +83,33 @@ const BlogPost: React.FC = () => {
           effectiveness: 'Reduces inflammation and insulin resistance',
           mechanism: 'Curcumin modulates glucose metabolism enzymes',
           traditionalUse: 'Golden milk or combined with black pepper'
+        },
+        {
+          name: 'Pippali',
+          imageSrc: 'https://en-media.thebetterindia.com/uploads/2022/08/Pippali-or-long-pepper-1-1659534129.jpg',
+          properties: 'heating',
+          source: 'Southeast Asia',
+          effectiveness: 'Helps in regulating blood sugar levels',
+          mechanism: 'helps to reduce the breakdown of starch into glucose which in turn leads to low blood glucose levels.',
+          traditionalUse: 'Boil in Water for 5-7 minutes, let it cool and take'
         }
       ];
 
   const products: Product[] = [
-    // {
-    //   name: 'Dabur Madhumehantak Vati',
-    //   imageSrc: '/products/dabur.jpg',
-    //   ingredients: 'Gudmar, Vijaysar, Jamun',
-    //   description: 'Supports healthy glucose levels and pancreatic function',
-    //   affiliateLink: '#'
-    // },
-    // Add other products
+    {
+      name: 'Kapiva Dia Free Juice - Blood Sugar Management',
+      imageSrc : "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/650w/products/350/10885/Ingredients_1_3__40864.1737963838.jpg?w=400%20400w",
+      ingredients: 'Gudmar, Goliy, Amla, Jamun, Karela, Methi Seeds, Vijaysar',
+      description: 'Naturally helps manage blood sugar and HbA1c levels on consuming as advised for at least 3 Months. Vijaysaar helps regenerate insulin-producing cells & Gudmar, Giloy, etc. help improve insulin release in the body. Naturally controlling Blood Sugar can prevent other health complications like BP and kidney issues',
+      affiliateLink: 'https://bitli.in/v58ljKD'
+    },
+    {
+      name: 'Shukalmukatadi Pravahi Kwath, for Diabetic',
+      imageSrc : "https://www.ashpveda.com/cdn/shop/files/ShukamukatadiKwath_480x480.webp?v=1718545313",
+      ingredients: 'Kaknasa, Pippali, Kali Mirch, Ashwagandha, Shatavari, Bhumi Amla, Afed Musli, Harad, BalaMool, Giloy',
+      description: 'Balances Blood Sugar Levels Elevate wellness with a blend that maintains blood sugar, stimulates the pancreas, boosts immunity, and enhances energy. Crafted with premium Ayurvedic herbs for a sophisticated health experience.Crafted in India Our products embody the essence of our rich heritage, showcasing rare ingredients meticulously and ethically sourced from diverse corners of the country. ',
+      affiliateLink: 'https://bitli.in/35ZFlVR'
+    }
   ];
 
   return (
@@ -173,33 +188,32 @@ const BlogPost: React.FC = () => {
       </section>
 
       {/* Products Section */}
-      {/* <section className="mb-16">
-        <h2 className="text-3xl font-bold mb-8 text-emerald-800">
-          Top Ayurvedic Products
-        </h2>
-
-        <div className="grid md:grid-cols-2 gap-6">
+      { <section className="mb-16">
+        <h2 className="text-2xl font-bold mb-8 text-emerald-800">
+        Convenient Ayurvedic Blends for Blood Sugar Support
+        </h2>      
+        <p className='roboto-regular'>While incorporating individual Ayurvedic herbs into your daily routine can be beneficial, sometimes convenience is key. We've researched and found a few well-regarded products that combine these powerful herbs into easy-to-consume formulations. These products offer a simplified approach to maintaining healthy blood sugar levels, especially for those with busy lifestyles.</p>
           {products.map((product, index) => (
-            <div key={index} className="border rounded-lg p-4 shadow-md">
+            <div key={index} className='my-4'>
               <div className="mb-4 rounded overflow-hidden">
                 <Image
                   src={product.imageSrc}
                   alt={product.name}
                   width={400}
-                  height={200}
-                  className="w-full h-32 object-cover"
+                  height={400}
+                  className="object-fit"
                 />
               </div>
               <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
               <p className='roboto-regular'><strong>Ingredients:</strong> {product.ingredients}</p>
-              <p className="mb-4">{product.description}</p>
-              <a href={product.affiliateLink} className="text-emerald-600 hover:underline">
-                View Product
+              <p className="mb-4"><strong>Description: </strong> {product.description}</p>
+              <a href={product.affiliateLink} className="inline-block bg-emerald-700 text-white px-4 py-2 rounded hover:bg-emerald-800 transition-colors">
+                Buy Link
               </a>
             </div>
           ))}
-        </div>
-      </section> */}
+        
+      </section> }
 
     </div>
   );

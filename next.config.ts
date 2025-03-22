@@ -27,6 +27,7 @@ const nextConfig: NextConfig = {
       "m.media-amazon.com",
       "static.toiimg.com",
       "upload.wikimedia.org",
+      "en-media.thebetterindia.com",
     ], // Add other domains as needed
   },
 };

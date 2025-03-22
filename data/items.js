@@ -379,7 +379,7 @@ export const items = [
       "<p><strong>Crafted in India</strong> Our products embody the essence of our rich heritage, showcasing rare ingredients meticulously and ethically sourced from diverse corners of the country.</p>",
       "<p><strong>Usage</strong> 25 ml, twice a day with Luke-warm water, half an hour after meal or As directed by physician.</p>"
     ],
-    "affiliate_link": "https://bitli.in/TAJ8V64",
+    "affiliate_link": "https://bitli.in/35ZFlVR",
     "rating": 4,
     "reviews": [
       {
@@ -676,7 +676,7 @@ export const items = [
     "category": "herb",
     "subcategory": "diabetic",
     "images": [
-      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/10388/E1__37188.1732597365.jpg?w=800",
+      "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/650w/products/350/10885/Ingredients_1_3__40864.1737963838.jpg?w=400%20400w",
       "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/9672/11_herbs__04989.1732357017.jpg?w=800",
       "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/9047/1_1__99279.1732357017.jpg?w=600",
       "https://kapiva-cdn.gumlet.io/s-5h8rqg02f8/images/stencil/original/products/350/9388/DIA_FREE_ORIGINAL__65895.1715940102.jpg?w=600",
