@@ -108,7 +108,7 @@ const BlogPost: React.FC = () => {
       imageSrc : "https://www.ashpveda.com/cdn/shop/files/ShukamukatadiKwath_480x480.webp?v=1718545313",
       ingredients: 'Kaknasa, Pippali, Kali Mirch, Ashwagandha, Shatavari, Bhumi Amla, Afed Musli, Harad, BalaMool, Giloy',
       description: 'Balances Blood Sugar Levels Elevate wellness with a blend that maintains blood sugar, stimulates the pancreas, boosts immunity, and enhances energy. Crafted with premium Ayurvedic herbs for a sophisticated health experience.Crafted in India Our products embody the essence of our rich heritage, showcasing rare ingredients meticulously and ethically sourced from diverse corners of the country. ',
-      affiliateLink: 'https://bitli.in/35ZFlVR'
+      affiliateLink: 'https://www.ashpveda.com/collections/diabetes-care/products/diabetes-care-shukalmukatadi-blood-sugar-kwath'
     }
   ];
 

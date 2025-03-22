@@ -379,7 +379,7 @@ export const items = [
       "<p><strong>Crafted in India</strong> Our products embody the essence of our rich heritage, showcasing rare ingredients meticulously and ethically sourced from diverse corners of the country.</p>",
       "<p><strong>Usage</strong> 25 ml, twice a day with Luke-warm water, half an hour after meal or As directed by physician.</p>"
     ],
-    "affiliate_link": "https://bitli.in/35ZFlVR",
+    "affiliate_link": "https://www.ashpveda.com/collections/diabetes-care/products/diabetes-care-shukalmukatadi-blood-sugar-kwath",
     "rating": 4,
     "reviews": [
       {
